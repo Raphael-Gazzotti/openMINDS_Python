@@ -163,6 +163,12 @@ Service.locali_zoom = Service(
     description="LocaliZoom allows the viewing and exploring of high-resolution images with superimposed atlas overlays. For more information see: https://localizoom.readthedocs.io/en/latest/index.html.",
     name="LocaliZoom",
 )
+Service.mesh_view = Service(
+    id="https://openminds.om-i.org/instances/service/MeshView",
+    definition="Web application for viewing atlas surface meshes and data point clouds.",
+    description="MeshView is a web application for real-time 3D display of surface mesh data representing structural parcellations from volumetric atlases, such as the Waxholm Space Atlas of the Sprague Dawley Rat Brain.",
+    name="MeshView",
+)
 Service.model_db = Service(
     id="https://openminds.om-i.org/instances/service/ModelDB",
     definition="ModelDB is a curated database of published models in the broad domain of computational neuroscience.",

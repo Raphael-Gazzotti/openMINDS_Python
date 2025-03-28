@@ -273,6 +273,14 @@ Species.ovis_aries = Species(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_9940"),
     synonyms=["domestic sheep", "sheep"],
 )
+Species.quiscalus_mexicanus = Species(
+    id="https://openminds.om-i.org/instances/species/quiscalusMexicanus",
+    definition="The species *Quiscalus mexicanus* (great-tailed grackle) belongs to the family of *Icteridae* (New World blackbirds, orioles and allies) of the order *Passeriformes* (song birds).",
+    description="It is a medium-sized, highly social passerine bird native to North and South America. Great-tailed grackles are medium-sized, highly social passerine birds (38–46 cm with males weighing 203–265 g and females 115–142 g) native to North and South America. Both sexes have long tails. Wingspan ranges between 48 and 58 cm. Males are iridescent black with a purple-blue sheen on the feathers of the head and upper body, while females are brown with darker wings and tail. Adults of both sexes have bright yellow eyes, while juveniles of both sexes have brown eyes and brown plumage like females (except for streaks on the breast). Great-tailed grackles, particularly the adult males, have a keel-shaped tail that they can fold vertically by aligning the two halves. [[adapted from Wikipedia](https://en.wikipedia.org/wiki/Great-tailed_grackle)]",
+    name="Quiscalus mexicanus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_64278"),
+    synonyms=["great-tailed grackle"],
+)
 Species.rattus_norvegicus = Species(
     id="https://openminds.om-i.org/instances/species/rattusNorvegicus",
     definition="The species *Rattus norvegicus* (brown rat) belongs to the family of *muridae* (murids).",

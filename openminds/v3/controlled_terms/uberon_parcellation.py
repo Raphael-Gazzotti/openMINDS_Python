@@ -3078,6 +3078,14 @@ UBERONParcellation.chemoarchitectural_part_of_striatum = UBERONParcellation(
     name="chemoarchitectural part of striatum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0025736"),
 )
+UBERONParcellation.chemosensory_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/chemosensoryOrgan",
+    definition="Is an anatomical entity. Is part of the nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000005) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000005#chemosensory-organ"),
+    name="chemosensory organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000005"),
+    synonyms=["chemosensory sensory organ"],
+)
 UBERONParcellation.choroid_plexus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/choroidPlexus",
     definition="'Choroid plexus' is a brain ventricle/choroid plexus and vasculature of central nervous system. It is part of the brain ventricle and tela choroidea.",
@@ -3236,13 +3244,13 @@ UBERONParcellation.circular_sulcus_of_insula = UBERONParcellation(
 )
 UBERONParcellation.circumventricular_organ = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/circumventricularOrgan",
-    definition="'Circumventricular organ' is a regional part of brain.",
-    description="Brain region located around or in relation to the ventricular system that is highly vascularized and distinguished by the lack of a blood brain barrier.",
+    definition="Is a regional part of brain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005408)]",
+    description="Any of any of the secretory or sensory organs located in the brain region around or in relation to the ventricular system that are characterized by extensive vasculature and a lack of a normal blood brain barrier (BBB) and allow for the linkage between the central nervous system and peripheral blood flow. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005408)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102196"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005408#circumventricular-organ-1"),
     name="circumventricular organ",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005408"),
-    synonyms=["CVO", "circumventricular organ", "circumventricular organ of neuraxis"],
+    synonyms=["circumventricular organ of neuraxis", "CVO"],
 )
 UBERONParcellation.claustral_amygdaloid_area = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/claustralAmygdaloidArea",
@@ -5290,6 +5298,23 @@ UBERONParcellation.gross_anatomical_parts_of_the_cerebellum = UBERONParcellation
     name="gross anatomical parts of the cerebellum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023836"),
 )
+UBERONParcellation.gustatory_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/gustatoryOrgan",
+    definition="Is a chemosensory organ. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003212)]",
+    description="Any sense organ that functions in (some) detection of chemical stimulus involved in sensory perception of taste (GO:0050912). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003212)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003212#gustatory-organ"),
+    name="gustatory organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003212"),
+    synonyms=[
+        "gustatory organ system organ",
+        "gustatory system organ",
+        "organ of gustatory organ system",
+        "organ of gustatory system",
+        "organ of taste system",
+        "taste organ",
+        "taste system organ",
+    ],
+)
 UBERONParcellation.gyrus_rectus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/gyrusRectus",
     definition="'Gyrus rectus' is a gyrus. It is part of the frontal lobe.",
@@ -5885,6 +5910,14 @@ UBERONParcellation.inferior_vestibular_nucleus = UBERONParcellation(
     name="inferior vestibular nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001721"),
     synonyms=["descending vestibular nucleus", "nucleus vestibularis inferior", "spinal vestibular nucleus"],
+)
+UBERONParcellation.infundibular_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/infundibularOrgan",
+    definition="Is a regional part of nervous system. Is part of the central nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011358) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0011358#infundibular-organ"),
+    name="infundibular organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011358"),
+    synonyms=["infundibular organ of Boeke", "ventral infundibular organ"],
 )
 UBERONParcellation.infundibular_recess_of3rd_ventricle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/infundibularRecessOf3rdVentricle",
@@ -9565,6 +9598,14 @@ UBERONParcellation.orbitofrontal_cortex = UBERONParcellation(
         "segment of cortex of frontal lobe",
     ],
 )
+UBERONParcellation.otolith_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/otolithOrgan",
+    definition="Is a vestibular organ. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002518)]",
+    description="The crystalline particles composed of calcium carbonate and a protein which adhere to the gelatinous membrane of the maculae of the utricle and saccule (otolithic membrane) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002518)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002518#otolith-organ"),
+    name="otolith organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002518"),
+)
 UBERONParcellation.oval_nucleus_of_stria_terminalis = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/ovalNucleusOfStriaTerminalis",
     definition="'Oval nucleus of stria terminalis' is a telencephalic nucleus. It is part of the anterior division of bed nuclei of stria terminalis.",
@@ -9795,6 +9836,13 @@ UBERONParcellation.paramedian_reticular_nucleus = UBERONParcellation(
         "paramedian reticular nucleus",
         "ventral paramedian reticular nucleus",
     ],
+)
+UBERONParcellation.parapineal_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/parapinealOrgan",
+    definition="Is part of the pineal complex. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015241)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015241#parapineal-organ"),
+    name="parapineal organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015241"),
 )
 UBERONParcellation.parasolitary_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/parasolitaryNucleus",
@@ -10102,6 +10150,13 @@ UBERONParcellation.paraventricular_nucleus_of_the_hypothalamus_parvicellular_div
         "PVHp",
     ],
 )
+UBERONParcellation.paraventricular_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/paraventricularOrgan",
+    definition="Is a diencephalic nucleus. Is part of the caudal tuberculum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000475) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000475#paraventricular-organ"),
+    name="paraventricular organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000475"),
+)
 UBERONParcellation.paravermic_lobule_ii = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/paravermicLobuleII",
     definition="Is a paravermis lobule area. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0028918)]",
@@ -10230,6 +10285,15 @@ UBERONParcellation.parietal_lobe = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001872#parietal-lobe-1"),
     name="parietal lobe",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001872"),
+)
+UBERONParcellation.parietal_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/parietalOrgan",
+    definition="Is part of the pineal complex. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004869)]",
+    description="A part of the epithalamus present in some animal species. The eye may be photoreceptive and is usually associated with the pineal gland, regulating circadian rhythmicity and hormone production for thermoregulation. The parietal eye is a part of the epithalamus, which can be divided into two major parts; the epiphysis (the pineal organ, or pineal gland if mostly endocrine) and the parietal organ (often called the parietal eye, or third eye if it is photoreceptive). It arises as an anterior evagination of the pineal organ or as a separate outgrowth of the roof of the diencephalon. In some species, it protrudes through the skull. The parietal eye uses a different biochemical method of detecting light than rod cells or cone cells in a normal vertebrate eye. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004869)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004869#parietal-organ"),
+    name="parietal organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004869"),
+    synonyms=["parietal eye"],
 )
 UBERONParcellation.parietooccipital_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/parietooccipitalSulcus",
@@ -12213,6 +12277,14 @@ UBERONParcellation.secondary_visual_cortex = UBERONParcellation(
         "visual association cortex",
     ],
 )
+UBERONParcellation.secretory_circumventricular_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/secretoryCircumventricularOrgan",
+    definition="Is a circumventricular organ and neuroendocrine gland. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010134)]",
+    description="A circumventricular organ that is capable of secreting substances into the cerebrospinal fluid. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010134)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010134#secretory-circumventricular-organ"),
+    name="secretory circumventricular organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010134"),
+)
 UBERONParcellation.segmental_subdivision_of_hindbrain = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/segmentalSubdivisionOfHindbrain",
     definition="'Segmental subdivision of hindbrain' is a segmental subdivision of nervous system. It is part of the hindbrain.",
@@ -12220,6 +12292,14 @@ UBERONParcellation.segmental_subdivision_of_hindbrain = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004733#segmental-subdivision-of-hindbrain"),
     name="segmental subdivision of hindbrain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004733"),
+)
+UBERONParcellation.sensory_circumventricular_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/sensoryCircumventricularOrgan",
+    definition="Is a circumventricular organ. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010135)]",
+    description="A circumventricular organ that is capable of monitoring the levels of substances to the cerebrospinal fluid. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010135)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010135#sensory-circumventricular-organ"),
+    name="sensory circumventricular organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010135"),
 )
 UBERONParcellation.septal_nuclear_complex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/septalNuclearComplex",
@@ -12238,6 +12318,14 @@ UBERONParcellation.septal_nuclear_complex = UBERONParcellation(
         "septal nucleus",
         "set of septal nuclei",
     ],
+)
+UBERONParcellation.septal_organ_of_masera = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/septalOrganOfMasera",
+    definition="Is part of the olfactory epithelium. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015246)]",
+    description="A small island of olfactory neuroepithelium lying bilaterally at the ventral base of the nasal septum near the entrance of the nasopharynx. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015246)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015246#septal-organ-of-masera"),
+    name="septal organ of Masera",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015246"),
 )
 UBERONParcellation.septofimbrial_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/septofimbrialNucleus",
@@ -12617,19 +12705,12 @@ UBERONParcellation.subcallosal_area = UBERONParcellation(
 )
 UBERONParcellation.subcommissural_organ = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/subcommissuralOrgan",
-    definition="'Subcommissural organ' is a secretory circumventricular organ. It is part of the midbrain tectum and Reissner's fiber.",
-    description="The subcommissural organ is a circumventricular organ consisting of ependymal cells which secrete SCO-spondin[WP,partially vetted].",
+    definition="Is a secretory circumventricular organ. Is part of the midbrain tectum and the Reissner's fiber. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002139) ('is_a' and 'relationship')]",
+    description="The subcommissural organ is a circumventricular organ consisting of ependymal cells which secrete SCO-spondin. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002139)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111159"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002139#subcommissural-organ-1"),
     name="subcommissural organ",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002139"),
-    synonyms=[
-        "cerebral aqueduct subcommissural organ",
-        "corpus subcommissurale",
-        "dorsal subcommissural organ",
-        "organum subcommissurale",
-        "SCO",
-    ],
 )
 UBERONParcellation.subcuneiform_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/subcuneiformNucleus",
@@ -12648,6 +12729,14 @@ UBERONParcellation.subfascicular_nucleus = UBERONParcellation(
     name="subfascicular nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002959"),
     synonyms=["SF", "nucleus subfascicularis"],
+)
+UBERONParcellation.subfornical_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/subfornicalOrgan",
+    definition="Is a sensory circumventricular organ. Is part of the septal nuclear complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002219) ('is_a' and 'relationship')]",
+    description="Group of neurons situated on the ventral surface of the fornix at the level of the foramen of Monro in the third ventricle (adapted from Wikipedia via NIF). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002219)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002219#subfornical-organ"),
+    name="subfornical organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002219"),
 )
 UBERONParcellation.subicular_complex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/subicularComplex",
@@ -14566,6 +14655,15 @@ UBERONParcellation.vestibular_nuclear_complex = UBERONParcellation(
         "vestibular nuclei in medulla oblongata",
         "vestibular nucleus",
     ],
+)
+UBERONParcellation.vestibular_organ = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/vestibularOrgan",
+    definition="Is an anatomical entity. Is part of the somatic nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006585) ('is_a' and 'relationship')]",
+    description="An organ that is part of a vestibular system. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006585)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006585#vestibular-organ-1"),
+    name="vestibular organ",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006585"),
+    synonyms=["balance organ"],
 )
 UBERONParcellation.vestibulocerebellar_tract = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/vestibulocerebellarTract",

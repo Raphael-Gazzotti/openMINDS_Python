@@ -16,8 +16,8 @@ class ModelVersion(LinkedMetadata):
     Structured information on a computational model (version level).
     """
 
-    type_ = "https://openminds.ebrains.eu/core/ModelVersion"
-    context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+    type_ = "https://openminds.om-i.org/types/ModelVersion"
+    context = {"@vocab": "https://openminds.om-i.org/props/"}
     schema_version = "latest"
 
     properties = [
@@ -28,6 +28,18 @@ class ModelVersion(LinkedMetadata):
             required=True,
             description="Level to which something is accessible to the model version.",
             instructions="Add the accessibility of the data for this research product version.",
+        ),
+        Property(
+            "configuration",
+            [
+                "openminds.latest.core.Configuration",
+                "openminds.latest.core.File",
+                "openminds.latest.core.PropertyValueList",
+                "openminds.latest.core.WebResource",
+            ],
+            "configuration",
+            description="no description available",
+            instructions="Add the configuration information for this model version.",
         ),
         Property(
             "copyright",
@@ -71,6 +83,14 @@ class ModelVersion(LinkedMetadata):
             "digitalIdentifier",
             description="Digital handle to identify objects or legal persons.",
             instructions="Add the globally unique and persistent digital identifier of this research product version.",
+        ),
+        Property(
+            "entry_point",
+            str,
+            "entryPoint",
+            formatting="text/plain",
+            description="no description available",
+            instructions="Add the entry point for this model version (for example, the path of the main script file within the repository).",
         ),
         Property(
             "formats",
@@ -205,6 +225,7 @@ class ModelVersion(LinkedMetadata):
                 "openminds.latest.controlled_terms.Language",
                 "openminds.latest.controlled_terms.Laterality",
                 "openminds.latest.controlled_terms.LearningResourceType",
+                "openminds.latest.controlled_terms.MRAcquisitionType",
                 "openminds.latest.controlled_terms.MRIPulseSequence",
                 "openminds.latest.controlled_terms.MRIWeighting",
                 "openminds.latest.controlled_terms.MeasuredQuantity",
@@ -367,11 +388,13 @@ class ModelVersion(LinkedMetadata):
         self,
         id=None,
         accessibility=None,
+        configuration=None,
         copyright=None,
         custodians=None,
         description=None,
         developers=None,
         digital_identifier=None,
+        entry_point=None,
         formats=None,
         full_documentation=None,
         full_name=None,
@@ -396,11 +419,13 @@ class ModelVersion(LinkedMetadata):
         return super().__init__(
             id=id,
             accessibility=accessibility,
+            configuration=configuration,
             copyright=copyright,
             custodians=custodians,
             description=description,
             developers=developers,
             digital_identifier=digital_identifier,
+            entry_point=entry_point,
             formats=formats,
             full_documentation=full_documentation,
             full_name=full_name,

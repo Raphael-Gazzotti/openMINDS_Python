@@ -2,7 +2,7 @@
 This module contains base classes that define interfaces
 and contain code common to sub-classes, to avoid code duplication.
 
-# Copyright (c) 2023 openMetadataInitiative
+# Copyright (c) 2025 openMetadataInitiative
 """
 
 from __future__ import annotations
@@ -69,7 +69,10 @@ class Node(metaclass=Registry):
 
         data = {"@type": self.type_}
         if with_context:
-            data["@context"] = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+            if self.type_.startswith("https://openminds.ebrains.eu/"):
+                data["@context"] = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+            else:
+                data["@context"] = {"@vocab": "https://openminds.om-i.org/props/"}
         if hasattr(self, "id") and self.id:
             data["@id"] = self.id
         for property in self.__class__.properties:

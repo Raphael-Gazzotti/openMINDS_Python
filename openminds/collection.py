@@ -62,6 +62,10 @@ class Collection:
         identifier = len(self.nodes)
         return fmt.format(identifier=identifier)
 
+    def _sort_nodes_by_id(self):
+        sorted_nodes = dict(sorted(self.nodes.items()))
+        self.nodes = sorted_nodes
+
     def save(self, path, individual_files=False, include_empty_properties=False):
         """
         Save the node collection to disk in JSON-LD format.
@@ -85,6 +89,12 @@ class Collection:
         # we first re-add all child nodes to the collection.
         # This is probably not the most elegant or fast way to do this, but it is simple and robust.
         for node in tuple(self.nodes.values()):
+
+            if node.type_.startswith("https://openminds.ebrains.eu/"):
+                data_context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+            else:
+                data_context = {"@vocab": "https://openminds.om-i.org/props/"}
+
             for linked_node in node.links:
                 self._add_node(linked_node)
         # Now we can actually save the nodes
@@ -96,8 +106,9 @@ class Collection:
                 parent_dir = os.path.dirname(path)
                 if parent_dir:
                     os.makedirs(parent_dir, exist_ok=True)
+            self._sort_nodes_by_id()
             data = {
-                "@context": {"@vocab": "https://openminds.ebrains.eu/vocab/"},
+                "@context": data_context,
                 "@graph": [
                     node.to_jsonld(
                         embed_linked_nodes=False, include_empty_properties=include_empty_properties, with_context=False
@@ -115,6 +126,7 @@ class Collection:
                 raise OSError(
                     f"If saving to multiple files, `path` must be a directory. path={path}, pwd={os.getcwd()}"
                 )
+            self._sort_nodes_by_id()
             output_paths = []
             for node in self:
                 if node.id.startswith("http"):
@@ -156,9 +168,13 @@ class Collection:
             with open(path, "r") as fp:
                 data = json.load(fp)
             if "@graph" in data:
+                if data["@context"]["@vocab"].startswith("https://openminds.ebrains.eu/"):
+                    version = "v3"
+                else:
+                    version = "latest"
                 for item in data["@graph"]:
                     if "@type" in item:
-                        cls = lookup_type(item["@type"])
+                        cls = lookup_type(item["@type"], version=version)
                         node = cls.from_jsonld(item)
                     else:
                         # allow links to metadata instances outside this collection

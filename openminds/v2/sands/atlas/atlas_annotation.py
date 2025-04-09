@@ -5,11 +5,11 @@
 # this file was auto-generated!
 
 
-from openminds.base import LinkedMetadata
+from openminds.base import EmbeddedMetadata
 from openminds.properties import Property
 
 
-class AtlasAnnotation(LinkedMetadata):
+class AtlasAnnotation(EmbeddedMetadata):
     """
     <description not available>
     """
@@ -125,7 +125,6 @@ class AtlasAnnotation(LinkedMetadata):
 
     def __init__(
         self,
-        id=None,
         best_view_point=None,
         criteria=None,
         criteria_quality_type=None,
@@ -140,7 +139,6 @@ class AtlasAnnotation(LinkedMetadata):
         visualized_in=None,
     ):
         return super().__init__(
-            id=id,
             best_view_point=best_view_point,
             criteria=criteria,
             criteria_quality_type=criteria_quality_type,

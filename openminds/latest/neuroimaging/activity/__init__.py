@@ -1,0 +1,2 @@
+from .functional_mri_acquisition import FunctionalMRIAcquisition
+from .structural_mri_acquisition import StructuralMRIAcquisition

@@ -5,5 +5,8 @@ from .meta_data_model_version import MetaDataModelVersion
 from .model import Model
 from .model_version import ModelVersion
 from .project import Project
+from .setup import Setup
 from .software import Software
 from .software_version import SoftwareVersion
+from .web_service import WebService
+from .web_service_version import WebServiceVersion

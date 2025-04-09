@@ -16,8 +16,8 @@ class ValidationTestVersion(LinkedMetadata):
     Structured information about a specific implementation of a validation test.
     """
 
-    type_ = "https://openminds.ebrains.eu/computation/ValidationTestVersion"
-    context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+    type_ = "https://openminds.om-i.org/types/ValidationTestVersion"
+    context = {"@vocab": "https://openminds.om-i.org/props/"}
     schema_version = "latest"
 
     properties = [
@@ -207,6 +207,7 @@ class ValidationTestVersion(LinkedMetadata):
                 "openminds.latest.controlled_terms.Language",
                 "openminds.latest.controlled_terms.Laterality",
                 "openminds.latest.controlled_terms.LearningResourceType",
+                "openminds.latest.controlled_terms.MRAcquisitionType",
                 "openminds.latest.controlled_terms.MRIPulseSequence",
                 "openminds.latest.controlled_terms.MRIWeighting",
                 "openminds.latest.controlled_terms.MeasuredQuantity",

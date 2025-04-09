@@ -16,8 +16,8 @@ class DatasetVersion(LinkedMetadata):
     Structured information on data originating from human/animal studies or simulations (version level).
     """
 
-    type_ = "https://openminds.ebrains.eu/core/DatasetVersion"
-    context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+    type_ = "https://openminds.om-i.org/types/DatasetVersion"
+    context = {"@vocab": "https://openminds.om-i.org/props/"}
     schema_version = "latest"
 
     properties = [
@@ -239,6 +239,7 @@ class DatasetVersion(LinkedMetadata):
                 "openminds.latest.controlled_terms.Language",
                 "openminds.latest.controlled_terms.Laterality",
                 "openminds.latest.controlled_terms.LearningResourceType",
+                "openminds.latest.controlled_terms.MRAcquisitionType",
                 "openminds.latest.controlled_terms.MRIPulseSequence",
                 "openminds.latest.controlled_terms.MRIWeighting",
                 "openminds.latest.controlled_terms.MeasuredQuantity",

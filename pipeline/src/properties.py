@@ -163,6 +163,7 @@ class Property:
         Args:
             data: the JSON-LD data
         """
+
         # todo: check data type
         def deserialize_item(item):
             if self.types == (str,):

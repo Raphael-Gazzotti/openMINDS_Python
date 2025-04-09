@@ -1,7 +1,7 @@
 """
 Representations of metadata fields/properties
 
-# Copyright (c) 2023 openMetadataInitiative
+# Copyright (c) 2025 openMetadataInitiative
 """
 
 from datetime import datetime, date

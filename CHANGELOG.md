@@ -48,3 +48,8 @@ For more detail see #29.
 
 - Update to latest openMINDS schemas and instances
 - Internal import statements are now sorted alphabetically
+
+## Release 0.3.0 (2025-04-09)
+
+- Added release candidate for openMINDS v4
+- Nodes in a collection are now sorted by ID.

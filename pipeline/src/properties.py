@@ -1,7 +1,7 @@
 """
 Representations of metadata fields/properties
 
-# Copyright (c) 2023 openMetadataInitiative
+# Copyright (c) 2025 openMetadataInitiative
 """
 
 from datetime import datetime, date
@@ -163,6 +163,7 @@ class Property:
         Args:
             data: the JSON-LD data
         """
+
         # todo: check data type
         def deserialize_item(item):
             if self.types == (str,):

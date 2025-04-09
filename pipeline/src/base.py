@@ -2,7 +2,7 @@
 This module contains base classes that define interfaces
 and contain code common to sub-classes, to avoid code duplication.
 
-# Copyright (c) 2023 openMetadataInitiative
+# Copyright (c) 2025 openMetadataInitiative
 """
 
 from __future__ import annotations

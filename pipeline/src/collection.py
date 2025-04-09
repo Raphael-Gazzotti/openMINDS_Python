@@ -63,9 +63,8 @@ class Collection:
         return fmt.format(identifier=identifier)
 
     def _sort_nodes_by_id(self):
-        sorted_nodes=dict(sorted(self.nodes.items()))
-        self.nodes=sorted_nodes
-
+        sorted_nodes = dict(sorted(self.nodes.items()))
+        self.nodes = sorted_nodes
 
     def save(self, path, individual_files=False, include_empty_properties=False):
         """

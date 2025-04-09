@@ -18,7 +18,7 @@
     "programmingLanguage": ["Python"],
     "operatingSystem": ["Linux", "Windows", "macOS"],
     "softwareRequirements": [
-      "Python (version >=3.7)"
+      "Python (version >=3.8)"
     ],
     "relatedLink": [
       "https://openminds-documentation.readthedocs.io"

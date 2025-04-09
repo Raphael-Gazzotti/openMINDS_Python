@@ -24,7 +24,7 @@
     "macOS"
   ],
   "softwareRequirements": [
-    "Python (version >=3.7)"
+    "Python (version >=3.8)"
   ],
   "relatedLink": [
     "https://openminds-documentation.readthedocs.io"
@@ -54,7 +54,7 @@
       "familyName": "K\u00f6hnen"
     }
   ],
-  "version": "0.2.3",
-  "downloadUrl": "https://files.pythonhosted.org/packages/55/ab/46152d31f5e4171756d397a400969b441278d39b76b17a3f1329632f0f15/openMINDS-0.2.3.tar.gz",
-  "dateModified": "2024-06-21"
+  "version": "0.3.0",
+  "downloadUrl": "https://files.pythonhosted.org/packages/0b/ca/1795238d79e239d1e04dfe9ac9d3969430c39df10b7c8a8217ca04b94365/openminds-0.3.0.tar.gz",
+  "dateModified": "2025-04-09"
 }

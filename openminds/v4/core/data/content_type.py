@@ -682,6 +682,20 @@ ContentType.application_vnd_enzo_amrplushdf5 = ContentType(
     file_extensions=[".hdf5"],
     name="application/vnd.enzo.amr+hdf5",
 )
+ContentType.application_vnd_espina_measurementplusms_excel = ContentType(
+    id="https://openminds.om-i.org/instances/contentTypes/application_vnd.espina.measurement+ms-excel",
+    description="This Excel workbook contains the exported measurements of segmented structures created in EspINA, such as volume, surface area, and other morphological parameters. Each measurement is provided in a separate worksheet.",
+    file_extensions=[".xls"],
+    name="application/vnd.espina.measurement+ms-excel",
+    synonyms=["EspINA Interactive Neuron Analyzer Measurement file", "EsPINA Analysis file"],
+)
+ContentType.application_vnd_espina_segmentation_seg = ContentType(
+    id="https://openminds.om-i.org/instances/contentTypes/application_vnd.espina.segmentation.seg",
+    description="This segmentation file format is a compressed archive providing the configuration information for a performed image segmentation.",
+    file_extensions=[".seg"],
+    name="application/vnd.espina.segmentation.seg",
+    synonyms=["EspINA Interactive Neuron Analyzer Segmentation file", "EsPINA Segmentation file"],
+)
 ContentType.application_vnd_espina_segpluszip = ContentType(
     id="https://openminds.om-i.org/instances/contentTypes/application_vnd.espina.seg+zip",
     file_extensions=[".seg"],

@@ -245,6 +245,56 @@ UBERONParcellation.accessory_olfactory_bulb = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004069"),
     synonyms=["accessory (vomeronasal) bulb", "olfactory bulb accessory nucleus"],
 )
+UBERONParcellation.accessory_olfactory_bulb_external_plexiform_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOlfactoryBulbExternalPlexiformLayer",
+    definition="Is an olfactory bulb layer. Is part of the accessory olfactory bulb. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0019289) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0019289#accessory-olfactory-bulb-external-plexiform-layer"
+    ),
+    name="accessory olfactory bulb external plexiform layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019289"),
+    synonyms=["AOB, outer plexiform layer"],
+)
+UBERONParcellation.accessory_olfactory_bulb_glomerular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOlfactoryBulbGlomerularLayer",
+    definition="Is a central nervous system cell part cluster. Is part of the accessory olfactory bulb. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007631) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0007631#accessory-olfactory-bulb-glomerular-layer"
+    ),
+    name="accessory olfactory bulb glomerular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007631"),
+    synonyms=["accessory olfactory bulb, glomerular layer", "AOB, glomerular layer"],
+)
+UBERONParcellation.accessory_olfactory_bulb_granule_cell_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOlfactoryBulbGranuleCellLayer",
+    definition="Is an olfactory bulb layer. Is part of the accessory olfactory bulb and the olfactory bulb granule cell layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015244) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0015244#accessory-olfactory-bulb-granule-cell-layer"
+    ),
+    name="accessory olfactory bulb granule cell layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015244"),
+    synonyms=["accessory olfactory bulb, granular layer", "AOB, granular layer"],
+)
+UBERONParcellation.accessory_olfactory_bulb_internal_plexiform_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOlfactoryBulbInternalPlexiformLayer",
+    definition="Is an olfactory bulb layer. Is part of the accessory olfactory bulb. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0019290) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0019290#accessory-olfactory-bulb-internal-plexiform-layer"
+    ),
+    name="accessory olfactory bulb internal plexiform layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019290"),
+    synonyms=["AOB, internal plexiform layer"],
+)
+UBERONParcellation.accessory_olfactory_bulb_mitral_cell_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOlfactoryBulbMitralCellLayer",
+    definition="Is an olfactory bulb layer. Is part of the accessory olfactory bulb and the olfactory bulb mitral cell layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015432) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0015432#accessory-olfactory-bulb-mitral-cell-layer"
+    ),
+    name="accessory olfactory bulb mitral cell layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015432"),
+    synonyms=["accessory olfactory bulb, mitral layer"],
+)
 UBERONParcellation.accessory_optic_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/accessoryOpticTract",
     definition="Is a tract of diencephalon. Is part of the optic tract. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035595) ('is_a' and 'relationship')]",
@@ -995,6 +1045,13 @@ UBERONParcellation.anterolateral_visual_area = UBERONParcellation(
     name="anterolateral visual area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035894"),
 )
+UBERONParcellation.anterolateral_visual_area_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/anterolateralVisualAreaLayer5",
+    definition="Is a regional part of brain. Is part of the anterolateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035908) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035908#anterolateral-visual-area-layer-5"),
+    name="anterolateral visual area, layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035908"),
+)
 UBERONParcellation.anteromedial_nucleus_of_thalamus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/anteromedialNucleusOfThalamus",
     definition="'Anteromedial nucleus of thalamus' is a nucleus of dorsal thalamus. It is part of the anterior nuclear group.",
@@ -1024,6 +1081,13 @@ UBERONParcellation.anteromedial_visual_area = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035893#anteromedial-visual-area"),
     name="anteromedial visual area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035893"),
+)
+UBERONParcellation.anteromedial_visual_area_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/anteromedialVisualAreaLayer5",
+    definition="Is a regional part of brain. Is part of the anteromedial visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035913) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035913#anteromedial-visual-area-layer-5"),
+    name="anteromedial visual area, layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035913"),
 )
 UBERONParcellation.anteroventral_cochlear_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/anteroventralCochlearNucleus",
@@ -2484,11 +2548,21 @@ UBERONParcellation.cerebellar_hemisphere = UBERONParcellation(
 )
 UBERONParcellation.cerebellar_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellarLayer",
-    definition="'Cerebellar layer' is a central nervous system cell part cluster and central nervous system gray matter layer. It is part of the cerebellar cortex.",
-    description="A cortical cell layer of the cerebellum. Examples:  the granular (inner+outer) layer, molecular layer, Purkinje cell layer, and the ventricular layer of the embryo.",
+    definition="Is a central nervous system cell part cluster and central nervous system gray matter layer. Is part of the cerebellar cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004130) ('is_a' and 'relationship')]",
+    description="A cortical cell layer of the cerebellum. Examples: the granular (inner+outer) layer, molecular layer, Purkinje cell layer, and the ventricular layer of the embryo. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004130)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0732371"),
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0004130#cytoarchitectural-part-of-the-cerebellar-cortex"
+    ),
     name="cerebellar layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004130"),
+    synonyms=[
+        "cell layer of cerebellar cortex",
+        "cytoarchitectural part of the cerebellar cortex",
+        "gray matter layer of cerebellum",
+        "layer of cerebellar cortex",
+        "layer of cerebellum",
+    ],
 )
 UBERONParcellation.cerebellar_nuclear_complex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellarNuclearComplex",
@@ -2587,6 +2661,17 @@ UBERONParcellation.cerebellum_anterior_vermis = UBERONParcellation(
         "vermis of anterior lobe of cerebellum",
         "vermis of the anterior lobe of the cerebellum",
     ],
+)
+UBERONParcellation.cerebellum_external_granule_cell_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumExternalGranuleCellLayer",
+    definition="Is a granular layer of cerebellar cortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008829)]",
+    description="Transient layer of the cerebellar cortex present during development which is composed of dividing and migrating granule cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008829)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0008829#outer-granular-layer-of-cerebellar-cortex"
+    ),
+    name="cerebellum external granule cell layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008829"),
+    synonyms=["outer granular layer of cerebellar cortex"],
 )
 UBERONParcellation.cerebellum_fissure = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumFissure",
@@ -2704,6 +2789,16 @@ UBERONParcellation.cerebellum_intermediate_zone = UBERONParcellation(
         "paravermis",
     ],
 )
+UBERONParcellation.cerebellum_internal_granule_cell_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumInternalGranuleCellLayer",
+    definition="Is a granular layer of cerebellar cortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008830)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0008830#inner-granular-layer-of-cerebellar-cortex"
+    ),
+    name="cerebellum internal granule cell layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008830"),
+    synonyms=["inner granular layer of cerebellar cortex"],
+)
 UBERONParcellation.cerebellum_interpositus_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumInterpositusNucleus",
     definition="'Cerebellum interpositus nucleus' is a nucleus of cerebellar nuclear complex.",
@@ -2742,11 +2837,12 @@ UBERONParcellation.cerebellum_lobule = UBERONParcellation(
 )
 UBERONParcellation.cerebellum_marginal_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumMarginalLayer",
-    definition="'Cerebellum marginal layer' is a hindbrain marginal layer. It is part of the cerebellum.",
+    definition="Is a hindbrain marginal layer. Is part of the cerebellum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034708) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0734731"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034708#cerebellum-marginal-layer"),
     name="cerebellum marginal layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034708"),
+    synonyms=["marginal zone of cerebellum"],
 )
 UBERONParcellation.cerebellum_posterior_vermis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumPosteriorVermis",
@@ -2771,6 +2867,13 @@ UBERONParcellation.cerebellum_vasculature = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006694#cerebellum-vasculature"),
     name="cerebellum vasculature",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006694"),
+)
+UBERONParcellation.cerebellum_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumVentricularLayer",
+    definition="Is a cerebellar layer. Is part of the ventricular system of central nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015828) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015828#cerebellum-ventricular-layer"),
+    name="cerebellum ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015828"),
 )
 UBERONParcellation.cerebellum_vermis_culmen = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellumVermisCulmen",
@@ -2979,12 +3082,13 @@ UBERONParcellation.cerebral_cortex = UBERONParcellation(
 )
 UBERONParcellation.cerebral_cortex_marginal_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralCortexMarginalLayer",
-    definition="'Cerebral cortex marginal layer' is a layer of developing cerebral cortex. It is part of the brain marginal zone.",
-    description="Developing superficial cortical layer located just under the pia matter, develops from the marginal layer of the neural tube and becomes cortical layer I.",
+    definition="Is a layer of developing cerebral cortex. Is part of the brain marginal zone. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014935) ('is_a' and 'relationship')]",
+    description="Developing superficial cortical layer located just under the pia matter, develops from the marginal layer of the neural tube and becomes cortical layer I. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014935)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0726687"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014935#cerebral-cortex-marginal-layer"),
     name="cerebral cortex marginal layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014935"),
+    synonyms=["cortical marginal layer", "cortical marginal zone", "future cortical layer I"],
 )
 UBERONParcellation.cerebral_cortex_neuropil = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralCortexNeuropil",
@@ -3001,6 +3105,13 @@ UBERONParcellation.cerebral_cortex_subventricular_zone = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014940#cerebral-cortex-subventricular-zone"),
     name="cerebral cortex subventricular zone",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014940"),
+)
+UBERONParcellation.cerebral_cortex_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralCortexVentricularLayer",
+    definition="Is a layer of developing cerebral cortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014936)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014936#cerebral-cortex-ventricular-layer"),
+    name="cerebral cortex ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014936"),
 )
 UBERONParcellation.cerebral_crus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralCrus",
@@ -3586,134 +3697,109 @@ UBERONParcellation.cortical_intermediate_zone = UBERONParcellation(
 )
 UBERONParcellation.cortical_layer_i = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerI",
-    definition="The most superficial layer of the neocortex characterized by a paucity of cell bodies.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005390)]",
+    description="The most superficial layer of the neocortex characterized by a paucity of cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005390)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107367"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005390#neocortex-layer-1"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005390#cortical-layer-i"),
     name="cortical layer I",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005390"),
     synonyms=[
-        "cortical layer 1",
-        "lamina 1",
-        "lamina I",
-        "lamina molecularis isocorticis",
-        "layer 1",
+        "cerebral cortex, layer 1",
+        "lamina molecularis isocorticis [lamina I]",
         "layer 1 of neocortex",
-        "layer I",
-        "layer i",
         "layer I of neocortex",
         "molecular layer of cerebral cortex",
-        "molecular layer of isocortex",
+        "molecular layer of isocortex [layer i]",
         "molecular layer of neocortex",
         "neocortex layer 1",
         "neocortex layer I",
         "neocortex molecular layer",
         "neocortex plexiform layer",
-        "neocortical layer 1",
-        "neocortical layer I",
         "plexiform layer of neocortex",
     ],
 )
 UBERONParcellation.cortical_layer_ii = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerII",
-    definition="Layer of neocortex lying just deep to molecular layer characterized by numerous small cell bodies.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005391)]",
+    description="Layer of neocortex lying just deep to molecular layer characterized by numerous small cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005391)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107368"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005391#neocortex-layer-2"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005391#cortical-layer-ii"),
     name="cortical layer II",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005391"),
     synonyms=[
-        "cortical layer 2",
-        "external granular layer of isocortex",
+        "cerebral cortex, layer 2",
+        "external granular layer of isocortex [layer II]",
         "external granular layer of neocortex",
         "external granule cell layer of neocortex",
-        "lamina 2",
-        "lamina granularis externa isocorticis",
-        "lamina II",
-        "layer 2",
-        "layer 2 of neocortex",
-        "layer II",
-        "layer ii",
+        "lamina granularis externa isocorticis [lamina ii]",
         "layer II of neocortex",
         "neocortex layer 2",
         "neocortex layer II",
-        "neocortical layer 2",
-        "neocortical layer II",
     ],
 )
 UBERONParcellation.cortical_layer_iii = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerIII",
-    definition="Layer of neocortex lying deep to the external granule cell layer defined cytoarchitecturally by numerous small pyramidal neurons.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005392)]",
+    description="Layer of neocortex lying deep to the external granule cell layer defined cytoarchitecturally by numerous small pyramidal neurons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005392)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107369"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005392#neocortex-layer-3"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005392#cortical-layer-iii"),
     name="cortical layer III",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005392"),
     synonyms=[
-        "cortical layer 3",
+        "cerebral cortex, layer 3",
         "external pyramidal cell layer",
-        "external pyramidal layer of isocortex",
+        "external pyramidal cell layer of neocortex",
+        "external pyramidal layer of isocortex [layer iii]",
         "external pyramidal layer of neocortex",
-        "lamina 3",
-        "lamina III",
-        "lamina pyramidalis externa isocorticis",
-        "layer 3",
+        "lamina pyramidalis externa isocorticis [lamina iii]",
         "layer 3 of neocortex",
-        "layer III",
-        "layer iii",
         "layer III of neocortex",
         "neocortex external pyramidal cell layer",
         "neocortex layer 3",
         "neocortex layer III",
-        "neocortical layer 3",
-        "neocortical layer III",
     ],
 )
 UBERONParcellation.cortical_layer_iv = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerIV",
-    definition="Layer of neocortex lying deep to the external pyramidal cell layer defined cytoarchitecturally by the presence of numerous small cells.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005393)]",
+    description="Layer of neocortex lying deep to the external pyramidal cell layer defined cytoarchitecturally by the presence of numerous small cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005393)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107370"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005393#neocortex-layer-4"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005393#cortical-layer-iv"),
     name="cortical layer IV",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005393"),
     synonyms=[
-        "cortical layer 4",
-        "internal granular layer of isocortex",
+        "cerebral cortex, layer 4",
+        "internal granular layer of isocortex [layer iv]",
         "internal granular layer of neocortex",
         "internal granule cell layer of neocortex",
-        "lamina 4",
-        "lamina granularis interna isocorticis",
-        "lamina IV",
-        "layer 4",
+        "lamina granularis interna isocorticis [lamina iv]",
         "layer 4 of neocortex",
-        "layer IV",
-        "layer iv",
         "layer IV of neocortex",
         "neocortex internal granule cell layer",
         "neocortex layer 4",
         "neocortex layer IV",
-        "neocortical layer 4",
+        "neocortical internal granule cell layer",
         "neocortical layer IV",
     ],
 )
 UBERONParcellation.cortical_layer_v = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerV",
-    definition="Layer of neocortex lying deep to the internal granule cell layer (layer 4) defined cytoarchitecturally by the predominance of large pyramidal cell bodies.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005394)]",
+    description="Layer of neocortex lying deep to the internal granule cell layer (layer 4) defined cytoarchitecturally by the predominance of large pyramidal cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005394)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107371"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005394#neocortex-layer-5"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005394#cortical-layer-v"),
     name="cortical layer V",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005394"),
     synonyms=[
-        "cortical layer 5",
+        "betz' cells",
+        "cerebral cortex, layer 5",
         "internal pyramidal cell layer of neocortex",
-        "internal pyramidal layer of isocortex",
-        "lamina 5",
-        "lamina ganglionaris",
-        "lamina pyramidalis interna",
-        "lamina pyramidalis interna isocorticis",
-        "lamina V",
-        "layer 5",
+        "internal pyramidal layer of isocortex [layer v]",
+        "internal pyramidal layer of neocortex",
+        "lamina pyramidalis interna isocorticis [lamina v]",
         "layer 5 of neocortex",
-        "layer V",
-        "layer v",
         "layer V of neocortex",
+        "neocortex internal pyramidal cell layer",
         "neocortex layer 5",
         "neocortex layer V",
         "neocortical layer 5",
@@ -3722,26 +3808,21 @@ UBERONParcellation.cortical_layer_v = UBERONParcellation(
 )
 UBERONParcellation.cortical_layer_vi = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticalLayerVI",
-    definition="Innermost layer of neocortex lying deep to the internal pyramidal cell layer defined cytoarchitecturally by cells of varying size.",
+    definition="Is a layer of neocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005395)]",
+    description="Innermost layer of neocortex lying deep to the internal pyramidal cell layer defined cytoarchitecturally by cells of varying size. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005395)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107374"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005395#neocortex-layer-6"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005395#cortical-layer-vi"),
     name="cortical layer VI",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005395"),
     synonyms=[
-        "cortical layer 6",
-        "lamina 6",
-        "lamina multiformis",
-        "lamina multiformis isocorticis",
-        "lamina VI",
-        "layer 6",
-        "layer 6 of neocortex",
-        "layer VI",
-        "layer vi",
+        "cerebral cortex, layer 6",
+        "lamina multiformis isocorticis [lamina vi]",
         "layer VI of neocortex",
-        "multiform layer of isocortex",
+        "multiform layer of isocortex [layer vi]",
         "multiform layer of neocortex",
         "neocortex layer 6",
         "neocortex layer VI",
+        "neocortex multiform layer",
         "neocortical layer 6",
         "neocortical layer VI",
         "pleiomorphic layer of neocortex",
@@ -3988,6 +4069,30 @@ UBERONParcellation.deep_cerebral_vein = UBERONParcellation(
     name="deep cerebral vein",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0016564"),
 )
+UBERONParcellation.deep_gray_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/deepGrayLayerOfSuperiorColliculus",
+    definition="Is a gray matter layer of superior colliculus and deep layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006789)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006789#deep-gray-layer-of-superior-colliculus"),
+    name="deep gray layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006789"),
+    synonyms=[
+        "deep grey layer of superior colliculus",
+        "lamina colliculi superioris vi",
+        "lamina VI of superior colliculus",
+        "layer VI of superior colliculus",
+        "stratum griseum profundum",
+        "stratum griseum profundum colliculi superioris",
+        "stratum griseum profundum of superior colliculus",
+    ],
+)
+UBERONParcellation.deep_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/deepLayerOfSuperiorColliculus",
+    definition="Is a layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006793)]",
+    description="The innermost layer of the superior colliculus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006793)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006793#deep-layer-of-superior-colliculus"),
+    name="deep layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006793"),
+)
 UBERONParcellation.deep_middle_cerebral_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/deepMiddleCerebralVein",
     definition="Is a cerebral vein. Is part of the basal vein. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035532) ('is_a' and 'relationship')]",
@@ -3995,6 +4100,24 @@ UBERONParcellation.deep_middle_cerebral_vein = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035532#deep-middle-cerebral-vein"),
     name="deep middle cerebral vein",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035532"),
+)
+UBERONParcellation.deep_white_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/deepWhiteLayerOfSuperiorColliculus",
+    definition="Is a white matter of superior colliculus and deep layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006790)]",
+    description="Deep white matter layer of superior collilculus that consists entirely of fibers. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006790)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006790#deep-white-layer-of-superior-colliculus"
+    ),
+    name="deep white layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006790"),
+    synonyms=[
+        "lamina colliculi superioris vii",
+        "lamina VII of superior colliculus",
+        "layer VII of superior colliculus",
+        "stratum album profundum",
+        "stratum album profundum of superior colliculus",
+        "stratum medullare profundum colliculi superioris",
+    ],
 )
 UBERONParcellation.densocellular_part_of_medial_dorsal_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/densocellularPartOfMedialDorsalNucleus",
@@ -4122,6 +4245,14 @@ UBERONParcellation.diencephalon = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001894"),
     synonyms=["between brain", "interbrain", "mature diencephalon", "thalamencephalon"],
 )
+UBERONParcellation.diencephalon_mantle_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonMantleLayer",
+    definition="Is a neural tube mantle layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009580)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009580#diencephalon-mantle-layer"),
+    name="diencephalon mantle layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009580"),
+    synonyms=["diencephalon lateral wall mantle layer", "mantle layer lateral wall diencephalon"],
+)
 UBERONParcellation.diencephalon_subarachnoid_space = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonSubarachnoidSpace",
     definition="Is a subarachnoid space. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005218) ('is_a' and 'relationship')]",
@@ -4199,6 +4330,13 @@ UBERONParcellation.dorsal_auditory_area = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035885#dorsal-auditory-area"),
     name="dorsal auditory area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035885"),
+)
+UBERONParcellation.dorsal_auditory_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsalAuditoryAreaLayer4",
+    definition="Is a regional part of brain. Is part of the dorsal auditory area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035917) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035917#dorsal-auditory-area-layer-4"),
+    name="dorsal auditory area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035917"),
 )
 UBERONParcellation.dorsal_cap_of_kooy = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/dorsalCapOfKooy",
@@ -4705,6 +4843,60 @@ UBERONParcellation.dorsolateral_prefrontal_cortex = UBERONParcellation(
     name="dorsolateral prefrontal cortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009834"),
 )
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer1",
+    definition="Is a cortical layer I. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035153) ('is_a' and 'relationship')]",
+    description="Most superficial layer of the Dorsolateral Prefrontal Cortex (DLPFC). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035153)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035153#dorsolateral-prefrontal-cortex-layer-1"),
+    name="dorsolateral prefrontal cortex layer 1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035153"),
+    synonyms=["layer I of dorsolateral prefrontal cortex"],
+)
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer2 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer2",
+    definition="Is a cortical layer II. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035154) ('is_a' and 'relationship')]",
+    description="Layer 2 of neocortex lying just deep to superficial layer 1 of dorsolateral prefrontal cortex. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035154)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035154#dorsolateral-prefrontal-cortex-layer-2"),
+    name="dorsolateral prefrontal cortex layer 2",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035154"),
+    synonyms=["layer II of dorsolateral prefrontal cortex"],
+)
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer3 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer3",
+    definition="Is a cortical layer III. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035155) ('is_a' and 'relationship')]",
+    description="Layer 3 of dorsolateral prefrontal cortex lying deep to the layer 2 and cytoarchitectonically defined by numerous small pyramidal neurons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035155)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035155#dorsolateral-prefrontal-cortex-layer-3"),
+    name="dorsolateral prefrontal cortex layer 3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035155"),
+    synonyms=["layer III of dorsolateral prefrontal cortex"],
+)
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer4",
+    definition="Is a cortical layer IV. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035156) ('is_a' and 'relationship')]",
+    description="Layer 4 of dorsolateral prefrontal cortex lying deep to the external pyramidal layer and cytoarchitectonically defined by presence of small cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035156)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035156#dorsolateral-prefrontal-cortex-layer-4"),
+    name="dorsolateral prefrontal cortex layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035156"),
+    synonyms=["granular layer IV of dorsolateral prefrontal cortex"],
+)
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer5",
+    definition="Is a cortical layer V. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035157) ('is_a' and 'relationship')]",
+    description="Layer 5 of dorsolateral prefrontal cortex lying deep to the internal granule cell layer 4 and cytoarchitectonically divisible into layers 5a and 5b. Layer 5a is characterized by the predominance of large pyramidal cell bodies. Layer 5b is pale in comparison. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035157)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035157#dorsolateral-prefrontal-cortex-layer-5"),
+    name="dorsolateral prefrontal cortex layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035157"),
+    synonyms=["layer V of dorsolateral prefrontal cortex"],
+)
+UBERONParcellation.dorsolateral_prefrontal_cortex_layer6 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/dorsolateralPrefrontalCortexLayer6",
+    definition="Is a cortical layer VI. Is part of the dorsolateral prefrontal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035158) ('is_a' and 'relationship')]",
+    description="Innermost layer of dorsolateral prefrontal cortex lying deep to the internal pyramidal cell layer 5. It is cytoarchitectonically defined in the DLPFC by cells of varying sizes. DLPFC layer 6a is characterized by more neurons and layer 6b has comparatively more glia. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035158)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035158#dorsolateral-prefrontal-cortex-layer-6"),
+    name="dorsolateral prefrontal cortex layer 6",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035158"),
+    synonyms=["layer VI of dorsolateral prefrontal cortex"],
+)
 UBERONParcellation.dorsomedial_nucleus_of_hypothalamus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/dorsomedialNucleusOfHypothalamus",
     definition="'Dorsomedial nucleus of hypothalamus' is a hypothalamic nucleus. It is part of the medial zone of hypothalamus and intermediate hypothalamic region.",
@@ -4808,45 +5000,46 @@ UBERONParcellation.entorhinal_cortex = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002728"),
     synonyms=["entorhinal area"],
 )
+UBERONParcellation.entorhinal_cortex_layer1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer1",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022336) ('is_a' and 'relationship')]",
+    description="Layer of the entorhinal cortex that is most superficial, continuous with layer 1 of adjacent neocortex and the molecular layer of the subiculum, lying deep to the pial layer and superficial to layer 2. It is relatively acellular consisting mostly of fibers running transversely relative to the cortical surface (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022336)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022336#entorhinal-cortex-layer-1"),
+    name="entorhinal cortex layer 1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022336"),
+    synonyms=["molecular layer of entorhinal cortex", "superficial plexiform layer of entorhinal cortex"],
+)
 UBERONParcellation.entorhinal_cortex_layer2 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer2",
-    definition="'Entorhinal cortex layer 2' is the outermost cell layer of the entorhinal cortex.",
-    description="Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474).",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022337) ('is_a' and 'relationship')]",
+    description="Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022337)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0731986"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022337#entorhinal-cortex-layer-2"),
     name="entorhinal cortex layer 2",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022337"),
-    synonyms=[
-        "EC layer 2",
-        "EC layer II",
-        "entorhinal cortex layer II",
-        "layer 2 of entorhinal cortex",
-        "layer II of entorhinal cortex",
-        "outermost cell layer of entorhinal cortex",
-    ],
 )
 UBERONParcellation.entorhinal_cortex_layer3 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer3",
-    definition="'Entorhinal cortex layer 3' is the pyramidal layer of the entorhinal cortex.",
-    description="Layer of the entorhinal cortex lying superficial to layer 4 and deep to layer 2. It is characterized by cells of various sizes and shapes with a predominance of pyramidal cells (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474).",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022327) ('is_a' and 'relationship')]",
+    description="Layer of the entorhinal cortex lying superficial to layer 4and deep to layer 2. It is characterized by cells of various sizes and shapes with a predominance of pyramidal cells (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022327)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103864"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022327#entorhinal-cortex-layer-3"),
     name="entorhinal cortex layer 3",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022327"),
-    synonyms=[
-        "EC layer 3",
-        "EC layer III",
-        "entorhinal cortex layer III",
-        "entorhinal cortex pyramidal layer",
-        "layer 3 of entorhinal cortex",
-        "layer III of entorhinal cortex",
-        "pyramidal layer of entorhinal cortex",
-    ],
+    synonyms=["entorhinal cortex, pyramidal layer", "pyramidal layer of entorhinal cortex"],
+)
+UBERONParcellation.entorhinal_cortex_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer4",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022323) ('is_a' and 'relationship')]",
+    description="Layer of entorhinal cortex lying superficial to layer 5 and deep to layer 3, that is relatively acellular. (Paxinos, The rat nervous system, Academic Press, 1995, pg 473-474). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022323)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022323#entorhinal-cortex-layer-4"),
+    name="entorhinal cortex layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022323"),
 )
 UBERONParcellation.entorhinal_cortex_layer5 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer5",
-    definition="'Entorhinal cortex layer 5' is one of the deep layers of the entorhinal cortex.",
-    description="Layer of entorhinal cortex lying superficial to layer 6 and deep to layer 4 characterized by large pyramidal neurons that are darkly stained in Nissl preparations (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474).",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022325) ('is_a' and 'relationship')]",
+    description="Layer of entorhinal cortex lying superficial to layer 6 and deep to layer 4 characterized by large pyramidal neurons that are darkly stained in Nissl preparations (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022325)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103866"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022325#entorhinal-cortex-layer-5"),
     name="entorhinal cortex layer 5",
@@ -4855,8 +5048,8 @@ UBERONParcellation.entorhinal_cortex_layer5 = UBERONParcellation(
 )
 UBERONParcellation.entorhinal_cortex_layer6 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/entorhinalCortexLayer6",
-    definition="'Entorhinal cortex layer 6' is the innermost layer of the entorhinal cortex.",
-    description="Layer of entorhinal cortex lying superficial to the cerebral white matter and deep to layer 5 characterized by cells of various shapes and sizes (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474).",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the entorhinal cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022329) ('is_a' and 'relationship')]",
+    description="Layer of entorhinal cortex lying superficial to the cerebral white matter and deep to layer 5 characterized by cells of various shapes and sizes (Adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 474) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022329)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103867"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022329#entorhinal-cortex-layer-6"),
     name="entorhinal cortex layer 6",
@@ -4881,6 +5074,22 @@ UBERONParcellation.epithalamus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001899"),
     synonyms=["ETh", "epithalamus"],
 )
+UBERONParcellation.epithalamus_mantle_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/epithalamusMantleLayer",
+    definition="Is a neural tube mantle layer. Is part of the epithalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013159) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013159#epithalamus-mantle-layer"),
+    name="epithalamus mantle layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013159"),
+    synonyms=["mantle layer epithalamus", "mantle layer of epithalamus"],
+)
+UBERONParcellation.epithalamus_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/epithalamusVentricularLayer",
+    definition="Is a neural tube ventricular layer. Is part of the epithalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013160) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013160#epithalamus-ventricular-layer"),
+    name="epithalamus ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013160"),
+    synonyms=["ventricular layer epithalamus", "ventricular layer of epithalamus"],
+)
 UBERONParcellation.external_capsule_of_telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/externalCapsuleOfTelencephalon",
     definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004545)]",
@@ -4889,6 +5098,13 @@ UBERONParcellation.external_capsule_of_telencephalon = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004545#external-capsule-of-telencephalon"),
     name="external capsule of telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004545"),
+)
+UBERONParcellation.external_cellular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/externalCellularLayer",
+    definition="Is part of the olfactory bulb. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000352)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000352#external-cellular-layer"),
+    name="external cellular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000352"),
 )
 UBERONParcellation.external_nucleus_of_inferior_colliculus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/externalNucleusOfInferiorColliculus",
@@ -5130,6 +5346,13 @@ UBERONParcellation.forebrain_ipsilateral_fiber_tracts = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022247#forebrain-ipsilateral-fiber-tracts"),
     name="forebrain ipsilateral fiber tracts",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022247"),
+)
+UBERONParcellation.forebrain_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainVentricularLayer",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the forebrain and the ventricular system of central nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015829) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015829#forebrain-ventricular-layer"),
+    name="forebrain ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015829"),
 )
 UBERONParcellation.forebrainmidbrain_boundary = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainmidbrainBoundary",
@@ -5381,6 +5604,15 @@ UBERONParcellation.future_myelencephalon = UBERONParcellation(
     name="future myelencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010096"),
 )
+UBERONParcellation.gelatinous_layer_of_statoconial_membrane = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/gelatinousLayerOfStatoconialMembrane",
+    definition="Is part of the statoconial membrane. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0016568)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0016568#gelatinous-layer-of-statoconial-membrane"
+    ),
+    name="gelatinous layer of statoconial membrane",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0016568"),
+)
 UBERONParcellation.genu_of_corpus_callosum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/genuOfCorpusCallosum",
     definition="'Genu of corpus callosum' is a regional part of brain. It is part of the corpus callosum.",
@@ -5511,6 +5743,49 @@ UBERONParcellation.granular_insular_cortex = UBERONParcellation(
     name="granular insular cortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034892"),
     synonyms=["granular insula"],
+)
+UBERONParcellation.granular_layer_corpus_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/granularLayerCorpusCerebelli",
+    definition="Is part of the corpus cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000358)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000358#granular-layer-corpus-cerebelli"),
+    name="granular layer corpus cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000358"),
+)
+UBERONParcellation.granular_layer_of_cerebellar_cortex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/granularLayerOfCerebellarCortex",
+    definition="Is a cerebellar layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002956)]",
+    description="The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002956)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002956#granular-layer-of-cerebellar-cortex"),
+    name="granular layer of cerebellar cortex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002956"),
+    synonyms=[
+        "cerebellar granular layer",
+        "cerebellar granule cell layer",
+        "cerebellar granule layer",
+        "cerebellum granule cell layer",
+        "cerebellum granule layer",
+        "granule cell layer of cerebellar cortex",
+        "stratum granulosum cerebelli",
+        "stratum granulosum corticis cerebelli",
+    ],
+)
+UBERONParcellation.granular_layer_valvula_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/granularLayerValvulaCerebelli",
+    definition="Is part of the valvula cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000766)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000766#granular-layer-valvula-cerebelli"),
+    name="granular layer valvula cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000766"),
+)
+UBERONParcellation.gray_matter_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/grayMatterLayerOfSuperiorColliculus",
+    definition="Is a layer of superior colliculus and central nervous system gray matter layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006785)]",
+    description="A central nervous system gray matter layer that is part of a superior colliculus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006785)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006785#gray-matter-layer-of-superior-colliculus"
+    ),
+    name="gray matter layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006785"),
+    synonyms=["gray matter of superior colliculus"],
 )
 UBERONParcellation.gray_matter_of_diencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/grayMatterOfDiencephalon",
@@ -5722,6 +5997,14 @@ UBERONParcellation.hemispheric_lobule_viii = UBERONParcellation(
         "paraflocculus dorsalis",
     ],
 )
+UBERONParcellation.henles_fiber_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/HenlesFiberLayer",
+    definition="Is a nervous system cell part layer. Is part of the retina. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8000005) ('is_a' and 'relationship')]",
+    description="This layer contains bundles of unmyelinated cone and rod photoreceptor axons terminating in the pedicles and spherules that synapse in the retinal outer plexiform layer (OPL). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8000005)]",
+    name="Henle's fiber layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_8000005"),
+    synonyms=["Henle fiber layer", "HFL", "nerve fiber layer of Henle"],
+)
 UBERONParcellation.hilum_of_dentate_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hilumOfDentateNucleus",
     definition="'Hilum of dentate nucleus' is a hilum of neuraxis. It is part of the dentate nucleus.",
@@ -5771,11 +6054,12 @@ UBERONParcellation.hindbrain_cortical_intermediate_zone = UBERONParcellation(
 )
 UBERONParcellation.hindbrain_marginal_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainMarginalLayer",
-    definition="'Hindbrain marginal layer' is a central nervous system cell part cluster. It is part of the hindbrain.",
+    definition="Is a central nervous system cell part cluster. Is part of the hindbrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034709) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0733117"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034709#hindbrain-marginal-layer"),
     name="hindbrain marginal layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034709"),
+    synonyms=["marginal zone of hindbrain"],
 )
 UBERONParcellation.hindbrain_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainNucleus",
@@ -6355,6 +6639,17 @@ UBERONParcellation.intermediate_hypothalamic_region = UBERONParcellation(
         "regio hypothalamica intermedia",
     ],
 )
+UBERONParcellation.intermediate_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/intermediateLayerOfSuperiorColliculus",
+    definition="Is a layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006792)]",
+    description="A layer of superior colliculus that lies between the superficial layer and the deep layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006792)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006792#intermediate-layer-of-superior-colliculus"
+    ),
+    name="intermediate layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006792"),
+    synonyms=["central zone of the optic tectum"],
+)
 UBERONParcellation.intermediate_oculomotor_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/intermediateOculomotorNucleus",
     definition="'Intermediate oculomotor nucleus' is a brainstem nucleus and midbrain nucleus. It is part of the oculomotor nuclear complex.",
@@ -6440,6 +6735,13 @@ UBERONParcellation.internal_capsule_of_telencephalon = UBERONParcellation(
     name="internal capsule of telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001887"),
     synonyms=["brain internal capsule", "internal capsule radiations"],
+)
+UBERONParcellation.internal_cellular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/internalCellularLayer",
+    definition="Is part of the olfactory bulb. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000573)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000573#internal-cellular-layer"),
+    name="internal cellular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000573"),
 )
 UBERONParcellation.internal_cerebral_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/internalCerebralVein",
@@ -7377,6 +7679,14 @@ UBERONParcellation.lateral_ventricle_ependyma = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004643"),
     synonyms=["ependyma of lateral ventricle"],
 )
+UBERONParcellation.lateral_ventricle_subependymal_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lateralVentricleSubependymalLayer",
+    definition="Is part of the telencephalic ventricle and the postnatal subventricular zone. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010404)]",
+    description="A cell layer below the ependyma in the lateral ventricles of the brain. This region contains adult neural stem cells which have the potential to generate new neurons and glial cells via neurogenesis. It is an adult version of the embryonic forebrain germinal zone. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010404)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010404#lateral-ventricle-subependymal-layer"),
+    name="lateral ventricle subependymal layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010404"),
+)
 UBERONParcellation.lateral_vestibular_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/lateralVestibularNucleus",
     definition="'Lateral vestibular nucleus' is a vestibular nucleus.",
@@ -7403,6 +7713,34 @@ UBERONParcellation.lateral_visual_area = UBERONParcellation(
     name="lateral visual area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035895"),
 )
+UBERONParcellation.lateral_visual_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lateralVisualAreaLayer4",
+    definition="Is a regional part of brain. Is part of the lateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035915) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035915#lateral-visual-area-layer-4"),
+    name="lateral visual area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035915"),
+)
+UBERONParcellation.lateral_visual_area_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lateralVisualAreaLayer5",
+    definition="Is a regional part of brain. Is part of the lateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035916) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035916#lateral-visual-area-layer-5"),
+    name="lateral visual area, layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035916"),
+)
+UBERONParcellation.lateral_visual_area_layer6a = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lateralVisualAreaLayer6a",
+    definition="Is a regional part of brain. Is part of the lateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035918) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035918#lateral-visual-area-layer-6a"),
+    name="lateral visual area, layer 6a",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035918"),
+)
+UBERONParcellation.layer_of_developing_cerebral_cortex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/layerOfDevelopingCerebralCortex",
+    definition="Is an anatomical entity. Is part of the cerebral cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014950) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014950#layer-of-developing-cerebral-cortex"),
+    name="layer of developing cerebral cortex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014950"),
+)
 UBERONParcellation.layer_of_hippocampus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/layerOfHippocampus",
     definition="'Layer of hippocampus' is a central nervous system cell part cluster and central nervous system gray matter layer. It is part of the hippocampal formation.",
@@ -7419,6 +7757,31 @@ UBERONParcellation.layer_of_hippocampus = UBERONParcellation(
         "hippocampus proper layer",
         "layer of cornu ammonis",
     ],
+)
+UBERONParcellation.layer_of_lateral_geniculate_body = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/layerOfLateralGeniculateBody",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the lateral geniculate body. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013605) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013605#layer-of-lateral-geniculate-body"),
+    name="layer of lateral geniculate body",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013605"),
+)
+UBERONParcellation.layer_of_neocortex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/layerOfNeocortex",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the neocortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002301) ('is_a' and 'relationship')]",
+    description="One of the layers of the neocortex. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002301)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002301#layer-of-neocortex"),
+    name="layer of neocortex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002301"),
+    synonyms=["neocortex layer"],
+)
+UBERONParcellation.layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/layerOfSuperiorColliculus",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the superior colliculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006783) ('is_a' and 'relationship')]",
+    description="The microstructure of the optic tectum / superior colliculus varies across species. As a general rule, there is always a clear distinction between superficial layers, which receive input primarily from the visual system and show primarily visual responses, and deeper layers, which receive many types of input and project to numerous motor-related brain areas. The distinction between these two zones is so clear and consistent that some anatomists have suggested that they should be considered separate brain structures. In mammals, neuroanatomists conventionally identify seven layers. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006783)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006783#layer-of-superior-colliculus"),
+    name="layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006783"),
+    synonyms=["cytoarchitectural part of superior colliculus", "layer of optic tectum"],
 )
 UBERONParcellation.left_auditory_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/leftAuditoryCortex",
@@ -8931,6 +9294,14 @@ UBERONParcellation.midbrain_cerebral_aqueduct = UBERONParcellation(
         "tectal ventricle",
     ],
 )
+UBERONParcellation.midbrain_mantle_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainMantleLayer",
+    definition="Is a neural tube mantle layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009581)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009581#midbrain-mantle-layer"),
+    name="midbrain mantle layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009581"),
+    synonyms=["mantle layer lateral wall midbrain", "midbrain lateral wall mantle layer"],
+)
 UBERONParcellation.midbrain_raphe_nuclei = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainRapheNuclei",
     definition="'Midbrain raphe nuclei' is a regional part of brain. It is part of the midbrain tegmentum and raphe nuclei.",
@@ -9034,6 +9405,26 @@ UBERONParcellation.middle_frontal_gyrus = UBERONParcellation(
         "middle (medial) frontal gyrus",
     ],
 )
+UBERONParcellation.middle_gray_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/middleGrayLayerOfSuperiorColliculus",
+    definition="Is a gray matter layer of superior colliculus and intermediate layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006788)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006788#middle-gray-layer-of-superior-colliculus"
+    ),
+    name="middle gray layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006788"),
+    synonyms=[
+        "intermediate gray layer",
+        "intermediate grey layer of superior colliculus",
+        "lamina colliculi superioris iv",
+        "lamina IV of superior colliculus",
+        "layer IV of superior colliculus",
+        "stratum griseum intermediale",
+        "stratum griseum intermediale of superior colliculus",
+        "stratum griseum intermedium colliculi superioris",
+        "stratum griseum mediale",
+    ],
+)
 UBERONParcellation.middle_mesencephalic_central_artery = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/middleMesencephalicCentralArtery",
     definition="Is a central artery. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005078)]",
@@ -9059,6 +9450,24 @@ UBERONParcellation.middle_temporal_gyrus = UBERONParcellation(
         "middle (medial) temporal gyrus",
     ],
 )
+UBERONParcellation.middle_white_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/middleWhiteLayerOfSuperiorColliculus",
+    definition="Is a white matter of superior colliculus and intermediate layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006787)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006787#middle-white-layer-of-superior-colliculus"
+    ),
+    name="middle white layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006787"),
+    synonyms=[
+        "intermediate white layer",
+        "intermediate white layer of superior colliculus",
+        "lamina colliculi superioris v",
+        "lamina V of superior colliculus",
+        "layer V of superior colliculus",
+        "stratum album intermediale of superior colliculus",
+        "stratum medullare intermedium colliculi superioris",
+    ],
+)
 UBERONParcellation.midline_nuclear_group = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/midlineNuclearGroup",
     definition="'Midline nuclear group' is a nucleus of dorsal thalamus.",
@@ -9081,6 +9490,34 @@ UBERONParcellation.midline_nuclear_group = UBERONParcellation(
         "nucleus mediani thalami",
         "periventricular nuclei of thalamus",
     ],
+)
+UBERONParcellation.molecular_layer_corpus_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/molecularLayerCorpusCerebelli",
+    definition="Is part of the corpus cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000394)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000394#molecular-layer-corpus-cerebelli"),
+    name="molecular layer corpus cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000394"),
+)
+UBERONParcellation.molecular_layer_of_cerebellar_cortex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/molecularLayerOfCerebellarCortex",
+    definition="Is a cerebellar layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002974)]",
+    description="The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002974)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002974#molecular-layer-of-cerebellar-cortex"),
+    name="molecular layer of cerebellar cortex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002974"),
+    synonyms=[
+        "cerebellar molecular layer",
+        "cerebellum molecular cell layer",
+        "cerebellum molecular layer",
+        "stratum moleculare corticis cerebelli",
+    ],
+)
+UBERONParcellation.molecular_layer_valvula_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/molecularLayerValvulaCerebelli",
+    definition="Is part of the valvula cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000913)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000913#molecular-layer-valvula-cerebelli"),
+    name="molecular layer valvula cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000913"),
 )
 UBERONParcellation.motor_nucleus_of_trigeminal_nerve = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/motorNucleusOfTrigeminalNerve",
@@ -9233,6 +9670,24 @@ UBERONParcellation.neural_nucleus = UBERONParcellation(
         "nucleus of CNS",
         "nucleus of neuraxis",
     ],
+)
+UBERONParcellation.neural_tube_mantle_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/neuralTubeMantleLayer",
+    definition="Is a differentiating neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004061)]",
+    description="The layer of glia and differentiating neurons that forms as a second layer around the germinal neuroepithium; as this develops it comes to lie between the ventricular and marginal layers and includes the basal and alar plates. Develops into neurons and glia forming a gray matter layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004061)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004061#neural-tube-mantle-layer"),
+    name="neural tube mantle layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004061"),
+    synonyms=["neural tube intermediate zone"],
+)
+UBERONParcellation.neural_tube_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/neuralTubeVentricularLayer",
+    definition="Is a proliferating neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004060)]",
+    description="The layer of undifferentiated, proliferating cells that line the neural tube lumen that is the immediate transformation of the germinal neuroepithelium. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004060)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004060#neural-tube-ventricular-layer"),
+    name="neural tube ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004060"),
+    synonyms=["neural tube ependymal layer", "neural tube ventricular germinal zone", "neural tube ventricular zone"],
 )
 UBERONParcellation.neurohypophysis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/neurohypophysis",
@@ -9597,43 +10052,74 @@ UBERONParcellation.olfactory_bulb = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002264"),
     synonyms=["bulbus olfactorius"],
 )
+UBERONParcellation.olfactory_bulb_external_plexiform_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbExternalPlexiformLayer",
+    definition="Is an olfactory bulb plexiform layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005376)]",
+    description="Cytoarchitectural part of the olfactory bulb, lying superior to the mitral cell layer and inferior to the glomerular layer. The EPL is mostly neuropil composed almost entirely of mitral and tulfted cell dendrites and granule cell dendrites and their synaptic inputs. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005376)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0005376#olfactory-bulb-external-plexiform-layer"
+    ),
+    name="olfactory bulb external plexiform layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005376"),
+    synonyms=["olfactory bulb main external plexiform layer"],
+)
+UBERONParcellation.olfactory_bulb_glomerular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbGlomerularLayer",
+    definition="Is an olfactory bulb layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005377)]",
+    description="The glomerular layer is the most superficial layer, consisting of mitral cell dendritic arborizations (glomeruli), olfactory nerve fibers, and periglomerular cells. Periglomerular cells contact multiple mitral cell dendrites within the glomeruli and provide lateral inhibition of neighboring glomeruli while allowing excitation of a specific mitral cell dendritic tree. Each mitral cell is contacted by at least 1000 olfactory nerve fibers. Portion of tissue which is located in between the primary olfactory fiber layer and the external cellular layer of the olfactory bulb. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005377)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005377#olfactory-bulb-glomerular-layer"),
+    name="olfactory bulb glomerular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005377"),
+    synonyms=["olfactory bulb main glomerulus", "stratum glomerulosum bulbi olfactorii"],
+)
 UBERONParcellation.olfactory_bulb_granule_cell_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbGranuleCellLayer",
-    definition="The granule cell layer contains multiple small round neurons that lack axons. Long dendritic processes of the neurons reach the more superficial layers and inhibit mitral cells and tufted cells. Small distal processes make contacts with the exiting mitral cell axons.",
-    description="'Olfactory bulb granule cell layer' is an olfactory bulb layer.",
+    definition="Is an olfactory bulb layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005378)]",
+    description="The granule cell layer contains multiple small round neurons that lack axons. Long dendritic processes of the neurons reach the more superficial layers and inhibit mitral cells and tufted cells. Small distal processes make contacts with the exiting mitral cell axons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005378)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0726644"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005378#olfactory-bulb-granule-cell-layer"),
     name="olfactory bulb granule cell layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005378"),
+    synonyms=["olfactory bulb main granule cell layer"],
+)
+UBERONParcellation.olfactory_bulb_internal_plexiform_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbInternalPlexiformLayer",
+    definition="Is an olfactory bulb plexiform layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005379)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0005379#olfactory-bulb-internal-plexiform-layer"
+    ),
+    name="olfactory bulb internal plexiform layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005379"),
+    synonyms=["internal plexiform layer"],
+)
+UBERONParcellation.olfactory_bulb_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbLayer",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the olfactory bulb. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004001) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004001#olfactory-bulb-layer"),
+    name="olfactory bulb layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004001"),
+    synonyms=["cytoarchitectural part of olfactory bulb"],
 )
 UBERONParcellation.olfactory_bulb_main_glomerular_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbMainGlomerularLayer",
-    definition="'Olfactory bulb main glomerular layer' is an olfactory bulb glomerular layer. It is part of the main olfactory bulb.",
-    description="The glomerular layer of the main olfactory bulb, lying deep to the olfactory nerve layer.  It contains the glomeruli, neuropil rich spheroid structures surrounded by a distinctive shell of small neuros and glial cells (Paxinos, the Rat Nervous System, 2nd ed., Academic Press, 1995).",
+    definition="Is an olfactory bulb glomerular layer. Is part of the main olfactory bulb. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023934) ('is_a' and 'relationship')]",
+    description="The glomerular layer of the main olfactory bulb, lying deep to the olfactory nerve layer. It contains the glomeruli, neuropil rich spheroid structures surrounded by a distinctive shell of small neuros and glial cells (Paxinos, the Rat Nervous System, 2nd ed., Academic Press, 1995). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023934)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107938"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0023934#olfactory-bulb-main-glomerular-layer-1"),
     name="olfactory bulb main glomerular layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023934"),
-    synonyms=["Gl", "olfactory bulb main glomerular layer"],
 )
 UBERONParcellation.olfactory_bulb_mitral_cell_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbMitralCellLayer",
-    definition="'Olfactory bulb mitral cell layer' is an olfactory bulb layer.",
-    description="The mitral cell layer is composed of pyramidal neurons whose cell bodies are located between the granule cell layer and the plexiform layer",
+    definition="Is an olfactory bulb layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004186)]",
+    description="The mitral cell layer is composed of pyramidal neurons whose cell bodies are located between the granule cell layer and the plexiform layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004186)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0107940"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0004186#olfactory-bulb-main-mitral-cell-body-layer"
     ),
     name="olfactory bulb mitral cell layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004186"),
-    synonyms=[
-        "Mi",
-        "mitral cell body layer",
-        "mitral cell layer",
-        "mitral cell layer of the olfactory bulb",
-        "OB mitral cell layer",
-        "olfactory bulb main mitral cell body layer",
-    ],
+    synonyms=["mitral cell body layer", "mitral cell layer", "OB mitral cell layer"],
 )
 UBERONParcellation.olfactory_bulb_outer_nerve_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbOuterNerveLayer",
@@ -9646,6 +10132,13 @@ UBERONParcellation.olfactory_bulb_outer_nerve_layer = UBERONParcellation(
     name="olfactory bulb outer nerve layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005978"),
     synonyms=["olfactory bulb main olfactory nerve layer", "olfactory bulb olfactory nerve layer"],
+)
+UBERONParcellation.olfactory_bulb_plexiform_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbPlexiformLayer",
+    definition="Is an olfactory bulb layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009950)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009950#olfactory-bulb-plexiform-layer"),
+    name="olfactory bulb plexiform layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009950"),
 )
 UBERONParcellation.olfactory_bulb_subependymal_zone = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryBulbSubependymalZone",
@@ -9663,6 +10156,30 @@ UBERONParcellation.olfactory_cortex = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002894#olfactory-cortex-1"),
     name="olfactory cortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002894"),
+)
+UBERONParcellation.olfactory_cortex_layer1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryCortexLayer1",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the olfactory cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022317) ('is_a' and 'relationship')]",
+    description="Surface layer of the olfactory cortex that contains dendrites, fiber systems and a small number of neurons. It has been divided into a superficial part and a deep part. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022317)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022317#olfactory-cortex-layer-1"),
+    name="olfactory cortex layer 1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022317"),
+)
+UBERONParcellation.olfactory_cortex_layer2 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryCortexLayer2",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the olfactory cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022318) ('is_a' and 'relationship')]",
+    description="Middle layer of olfactory cortex lying deep to layer 1 and superficial to layer 3, characterized by a compact layer of cell bodies. It can be divided into a superficial part and a deep part. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022318)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022318#olfactory-cortex-layer-2"),
+    name="olfactory cortex layer 2",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022318"),
+)
+UBERONParcellation.olfactory_cortex_layer3 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryCortexLayer3",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the olfactory cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035044) ('is_a' and 'relationship')]",
+    description="Deepest layer of olfactory cortex. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035044)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035044#olfactory-cortex-layer-3"),
+    name="olfactory cortex layer 3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035044"),
 )
 UBERONParcellation.olfactory_entorhinal_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/olfactoryEntorhinalCortex",
@@ -11088,25 +11605,71 @@ UBERONParcellation.piriform_cortex = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004725"),
     synonyms=["cortex piriformis", "primary olfactory areas"],
 )
+UBERONParcellation.piriform_cortex_layer1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer1",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014277) ('is_a' and 'relationship')]",
+    description="Most superficial of 3 cytoarchitecturally defined layers of the piriform cortex, characterized by few neuronal cell bodies. It has been divided into a superficial part and a deep part. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014277)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014277#piriform-cortex-layer-1"),
+    name="piriform cortex layer 1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014277"),
+    synonyms=[
+        "layer 1 of piriform cortex",
+        "piriform cortex plexiform layer",
+        "plexiform layer of piriform cortex",
+        "pyriform cortex layer 1",
+    ],
+)
 UBERONParcellation.piriform_cortex_layer1a = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer1a",
-    definition="'Piriform cortex layer 1a' is a central nervous system cell part cluster and nervous system cell part layer. It is part of the piriform cortex layer 1.",
-    description="Superficial part of plexiform layer (layer 1) of piriform cortex that receives afferents from the olfactory bulb by way of the lateral olfactory tract.",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex layer 1. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023900) ('is_a' and 'relationship')]",
+    description="Superficial part of plexiform layer (layer 1) of piriform cortex that receives afferents from the olfactory bulb by way of the lateral olfactory tract. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023900)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108922"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0023900#piriform-cortex-layer-1a-1"),
     name="piriform cortex layer 1a",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023900"),
-    synonyms=["piriform cortex layer 1a"],
 )
 UBERONParcellation.piriform_cortex_layer1b = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer1b",
-    definition="'Piriform cortex layer 1b' is a central nervous system cell part cluster and nervous system cell part layer. It is part of the piriform cortex layer 1.",
-    description="Deeper part of the plexiform (layer 1) of piriform cortex characterized by projection of association fibers from other parts of the piriform cortex and other olfactory areas",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex layer 1. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023901) ('is_a' and 'relationship')]",
+    description="Deeper part of the plexiform (layer 1) of piriform cortex characterized by projection of association fibers from other parts of the piriform cortex and other olfactory areas. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023901)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108923"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0023901#piriform-cortex-layer-1b-1"),
     name="piriform cortex layer 1b",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023901"),
-    synonyms=["piriform cortex layer 1b"],
+)
+UBERONParcellation.piriform_cortex_layer2 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer2",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014280) ('is_a' and 'relationship')]",
+    description="Middle of three cytoarchitecturally defined layers of the piriform cortex characterized by a compact layer of cell bodies. It can be divided into a superficial part and a more densely packed deep part. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014280)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014280#piriform-cortex-layer-2"),
+    name="piriform cortex layer 2",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014280"),
+    synonyms=["layer 2 of piriform cortex", "layer II of piriform cortex", "piriform cortex layer II"],
+)
+UBERONParcellation.piriform_cortex_layer2a = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer2a",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex layer 2. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022340) ('is_a' and 'relationship')]",
+    description="Superficial region of layer 2 of the piriform cortex characterized by a less dense packing of cells and a concentration of semilunar cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022340)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022340#piriform-cortex-layer-2a"),
+    name="piriform cortex layer 2a",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022340"),
+)
+UBERONParcellation.piriform_cortex_layer2b = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer2b",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex layer 2. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022341) ('is_a' and 'relationship')]",
+    description="Deeper of two subdivisions of piriform layer 2 characterized by more densely packed cell bodies dominated by pyramidal cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022341)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022341#piriform-cortex-layer-2b"),
+    name="piriform cortex layer 2b",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022341"),
+)
+UBERONParcellation.piriform_cortex_layer3 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piriformCortexLayer3",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the piriform cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014283) ('is_a' and 'relationship')]",
+    description="Deepest of 3 cytoarchitecturally defined layers of the piriform cortex characterized by a moderately high density of pyramidal cells and large numbers of basal dendrites descending from pyramidal cells in layer 2. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014283)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014283#piriform-cortex-layer-3"),
+    name="piriform cortex layer 3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014283"),
+    synonyms=["layer 3 of piriform cortex"],
 )
 UBERONParcellation.pituitary_gland = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pituitaryGland",
@@ -11715,12 +12278,33 @@ UBERONParcellation.posterolateral_visual_area = UBERONParcellation(
     name="posterolateral visual area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035897"),
 )
+UBERONParcellation.posterolateral_visual_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/posterolateralVisualAreaLayer4",
+    definition="Is a regional part of brain. Is part of the posterolateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035919) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035919#posterolateral-visual-area-layer-4"),
+    name="posterolateral visual area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035919"),
+)
 UBERONParcellation.posteromedial_visual_area = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/posteromedialVisualArea",
     definition="Is a regional part of brain. Is part of the visual cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035900) ('is_a' and 'relationship')]",
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035900#posteromedial-visual-area"),
     name="posteromedial visual area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035900"),
+)
+UBERONParcellation.posteromedial_visual_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/posteromedialVisualAreaLayer4",
+    definition="Is a regional part of brain. Is part of the posteromedial visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035914) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035914#posteromedial-visual-area-layer-4"),
+    name="posteromedial visual area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035914"),
+)
+UBERONParcellation.posteromedial_visual_area_layer6a = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/posteromedialVisualAreaLayer6a",
+    definition="Is a regional part of brain. Is part of the posteromedial visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035909) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035909#posteromedial-visual-area-layer-6a"),
+    name="posteromedial visual area, layer 6a",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035909"),
 )
 UBERONParcellation.posteroventral_cochlear_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/posteroventralCochlearNucleus",
@@ -11779,6 +12363,13 @@ UBERONParcellation.postrhinal_area = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035890#postrhinal-area"),
     name="postrhinal area",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035890"),
+)
+UBERONParcellation.postrhinal_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/postrhinalAreaLayer4",
+    definition="Is a regional part of brain. Is part of the postrhinal area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035911) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035911#postrhinal-area-layer-4"),
+    name="postrhinal area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035911"),
 )
 UBERONParcellation.postsubiculum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/postsubiculum",
@@ -12050,6 +12641,27 @@ UBERONParcellation.primary_motor_cortex = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001384"),
     synonyms=["motor cortex"],
 )
+UBERONParcellation.primary_motor_cortex_layer1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryMotorCortexLayer1",
+    definition="Is a layer of neocortex. Is part of the primary motor cortex and the cortical layer I. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034888) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034888#primary-motor-cortex-layer-1"),
+    name="primary motor cortex layer 1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034888"),
+)
+UBERONParcellation.primary_motor_cortex_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryMotorCortexLayer5",
+    definition="Is a layer of neocortex. Is part of the primary motor cortex and the cortical layer V. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022315) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022315#primary-motor-cortex-layer-5"),
+    name="primary motor cortex layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022315"),
+)
+UBERONParcellation.primary_motor_cortex_layer6 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryMotorCortexLayer6",
+    definition="Is a layer of neocortex. Is part of the primary motor cortex and the cortical layer VI. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022316) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022316#primary-motor-cortex-layer-6"),
+    name="primary motor cortex layer 6",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022316"),
+)
 UBERONParcellation.primary_olfactory_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primaryOlfactoryCortex",
     definition="Is a regional part of brain. Is part of the olfactory cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022469) ('is_a' and 'relationship')]",
@@ -12059,65 +12671,71 @@ UBERONParcellation.primary_olfactory_cortex = UBERONParcellation(
     name="primary olfactory cortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022469"),
 )
+UBERONParcellation.primary_olfactory_fiber_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryOlfactoryFiberLayer",
+    definition="Is part of the olfactory bulb. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000267)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000267#primary-olfactory-fiber-layer"),
+    name="primary olfactory fiber layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000267"),
+)
 UBERONParcellation.primary_somatosensory_area_barrel_field_layer1 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer1",
-    definition="'Primary somatosensory area barrel field layer 1' is a layer of neocortex. It is part of the barrel cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035873) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109286"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0035873#primary-somatosensory-area-barrel-field-layer-1"
     ),
     name="primary somatosensory area barrel field layer 1",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035873"),
-    synonyms=["SSp-bfd1"],
+)
+UBERONParcellation.primary_somatosensory_area_barrel_field_layer23 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer23",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035874) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0035874#primary-somatosensory-area-barrel-field-layer-2-3"
+    ),
+    name="primary somatosensory area barrel field layer 2/3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035874"),
 )
 UBERONParcellation.primary_somatosensory_area_barrel_field_layer4 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer4",
-    definition="'Primary somatosensory area barrel field layer 4' is a layer of neocortex. It is part of the barrel cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035877) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109288"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0035877#primary-somatosensory-area-barrel-field-layer-4"
     ),
     name="primary somatosensory area barrel field layer 4",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035877"),
-    synonyms=["barrel cortex layer 4", "SSp-bfd4"],
 )
 UBERONParcellation.primary_somatosensory_area_barrel_field_layer5 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer5",
-    definition="'Primary somatosensory area barrel field layer 5' is a layer of neocortex. It is part of the barrel cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035872) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109290"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0035872#primary-somatosensory-area-barrel-field-layer-5"
     ),
     name="primary somatosensory area barrel field layer 5",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035872"),
-    synonyms=["barrel cortex layer 5", "barrel cortex layer 5,", "SSp-bfd5"],
 )
 UBERONParcellation.primary_somatosensory_area_barrel_field_layer6a = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer6a",
-    definition="'Primary somatosensory area barrel field layer 6a' is a layer of neocortex. It is part of the barrel cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035876) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109292"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0035876#primary-somatosensory-area-barrel-field-layer-6a"
     ),
     name="primary somatosensory area barrel field layer 6a",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035876"),
-    synonyms=["Barrel cortex layer 6A", "SSp-bfd6a"],
 )
 UBERONParcellation.primary_somatosensory_area_barrel_field_layer6b = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryAreaBarrelFieldLayer6b",
-    definition="'Primary somatosensory area barrel field layer 6b' is a layer of neocortex. It is part of the barrel cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the barrel cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035875) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109294"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0035875#primary-somatosensory-area-barrel-field-layer-6b"
     ),
     name="primary somatosensory area barrel field layer 6b",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035875"),
-    synonyms=["Barrel cortex layer 6B", "SSp-bfd6b"],
 )
 UBERONParcellation.primary_somatosensory_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryCortex",
@@ -12131,13 +12749,12 @@ UBERONParcellation.primary_somatosensory_cortex = UBERONParcellation(
 )
 UBERONParcellation.primary_somatosensory_cortex_layer6 = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySomatosensoryCortexLayer6",
-    definition="'Primary somatosensory cortex layer 6' is a layer of neocortex. It is part of the primary somatosensory cortex.",
-    description="",
+    definition="Is a layer of neocortex. Is part of the primary somatosensory cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023859) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109334"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0023859#primary-somatosensory-cortex-lamina-vi"),
     name="primary somatosensory cortex layer 6",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023859"),
-    synonyms=["primary somatosensory cortex lamina VI", "primary somatosensory cortex layer 6"],
+    synonyms=["primary somatosensory cortex lamina VI"],
 )
 UBERONParcellation.primary_superior_olive = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primarySuperiorOlive",
@@ -12148,6 +12765,34 @@ UBERONParcellation.primary_superior_olive = UBERONParcellation(
     name="primary superior olive",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022434"),
     synonyms=["SOl", "superior olive"],
+)
+UBERONParcellation.primary_visual_area_layer23 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryVisualAreaLayer23",
+    definition="Is a regional part of brain. Is part of the primary visual cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035907) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035907#primary-visual-area-layer-2-3"),
+    name="primary visual area, layer 2/3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035907"),
+)
+UBERONParcellation.primary_visual_area_layer4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryVisualAreaLayer4",
+    definition="Is a regional part of brain. Is part of the primary visual cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035904) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035904#primary-visual-area-layer-4"),
+    name="primary visual area, layer 4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035904"),
+)
+UBERONParcellation.primary_visual_area_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryVisualAreaLayer5",
+    definition="Is a regional part of brain. Is part of the primary visual cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035906) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035906#primary-visual-area-layer-5"),
+    name="primary visual area, layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035906"),
+)
+UBERONParcellation.primary_visual_area_layer6a = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/primaryVisualAreaLayer6a",
+    definition="Is a regional part of brain. Is part of the primary visual cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035892) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035892#primary-visual-area-layer-6a"),
+    name="primary visual area, layer 6a",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035892"),
 )
 UBERONParcellation.primary_visual_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/primaryVisualCortex",
@@ -12227,6 +12872,36 @@ UBERONParcellation.proisocortex = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014951#proisocortex"),
     name="proisocortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014951"),
+)
+UBERONParcellation.purkinje_cell_layer_corpus_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/PurkinjeCellLayerCorpusCerebelli",
+    definition="Is part of the corpus cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002240)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2002240#purkinje-cell-layer-corpus-cerebelli"),
+    name="Purkinje cell layer corpus cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2002240"),
+)
+UBERONParcellation.purkinje_cell_layer_of_cerebellar_cortex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/PurkinjeCellLayerOfCerebellarCortex",
+    definition="Is a cerebellar layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002979)]",
+    description="The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002979)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0002979#purkinje-cell-layer-of-cerebellar-cortex-1"
+    ),
+    name="Purkinje cell layer of cerebellar cortex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002979"),
+    synonyms=[
+        "cerebellar Purkinje cell layer",
+        "cerebellum Purkinje cell layer",
+        "cerebellum Purkinje layer",
+        "Purkinje cell layer",
+    ],
+)
+UBERONParcellation.purkinje_cell_layer_valvula_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/PurkinjeCellLayerValvulaCerebelli",
+    definition="Is part of the valvula cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002241)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2002241#purkinje-cell-layer-valvula-cerebelli"),
+    name="Purkinje cell layer valvula cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2002241"),
 )
 UBERONParcellation.putamen = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/putamen",
@@ -13032,6 +13707,13 @@ UBERONParcellation.rostral_spinocerebellar_tract = UBERONParcellation(
     name="rostral spinocerebellar tract",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023984"),
 )
+UBERONParcellation.rostrolateral_area_layer5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/rostrolateralAreaLayer5",
+    definition="Is a regional part of brain. Is part of the rostrolateral visual area. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035920) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035920#rostrolateral-area-layer-5"),
+    name="rostrolateral area, layer 5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035920"),
+)
 UBERONParcellation.rostrolateral_visual_area = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/rostrolateralVisualArea",
     definition="Is a regional part of brain. Is part of the posterior parietal association areas. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035912) ('is_a' and 'relationship')]",
@@ -13282,6 +13964,22 @@ UBERONParcellation.sommers_sector = UBERONParcellation(
     name="Sommer's sector",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023932"),
     synonyms=["sommer's sector", "sommers sector"],
+)
+UBERONParcellation.spinal_cord_mantle_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordMantleLayer",
+    definition="Is a neural tube mantle layer. Is part of the future spinal cord. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009583) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009583#spinal-cord-mantle-layer"),
+    name="spinal cord mantle layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009583"),
+    synonyms=["mantle layer lateral wall spinal cord", "spinal cord lateral wall mantle layer"],
+)
+UBERONParcellation.spinal_cord_ventricular_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordVentricularLayer",
+    definition="Is a neural tube ventricular layer. Is part of the future spinal cord. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034710) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034710#spinal-cord-ventricular-layer"),
+    name="spinal cord ventricular layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034710"),
+    synonyms=["spinal cord lateral wall ventricular layer"],
 )
 UBERONParcellation.spinal_trigeminal_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/spinalTrigeminalTract",
@@ -13606,6 +14304,46 @@ UBERONParcellation.subiculum = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002191"),
     synonyms=["gyrus parahippocampalis", "subicular cortex", "subiculum cornu ammonis", "subiculum hippocampi"],
 )
+UBERONParcellation.sublaminar_layer_s1 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/sublaminarLayerS1",
+    definition="Is a sublaminar layers S1 or S2, sublaminar layers S1 or S2 or S5, sublaminar layers S1 or S2 or S3, sublaminar layers S1 or S3 or S4 and sublaminar layers S1 or S2 or S3 or S4. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008922)]",
+    description="A retinal neural layer that is immediately adjacent to the inner nuclear layer and comprises 20 percent of the inner plexiform layer of retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008922)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008922#sublaminar-layer-s1"),
+    name="sublaminar layer S1",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008922"),
+)
+UBERONParcellation.sublaminar_layer_s2 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/sublaminarLayerS2",
+    definition="Is a sublaminar layers S1 or S2, sublaminar layers S2 or S3, sublaminar layers S1 or S2 or S5, sublaminar layers S1 or S2 or S3, sublaminar layers S2 or S3 or S4 and sublaminar layers S1 or S2 or S3 or S4. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008923)]",
+    description="A retinal neural layer that is immediately adjacent to the S1 and S3 layers and comprises 20 percent of the inner plexiform layer of retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008923)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008923#sublaminar-layer-s2"),
+    name="sublaminar layer S2",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008923"),
+)
+UBERONParcellation.sublaminar_layer_s3 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/sublaminarLayerS3",
+    definition="Is a sublaminar layers S2 or S3, sublaminar layers S3 or S4, sublaminar layers S1 or S2 or S3, sublaminar layers S2 or S3 or S4, sublaminar layers S1 or S3 or S4, sublaminar layers S3 or S4 or S5 and sublaminar layers S1 or S2 or S3 or S4. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008924)]",
+    description="A retinal neural layer that is immediately adjacent to the S2 and S4 layers and comprises 20 percent of the inner plexiform layer of retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008924)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008924#sublaminar-layer-s3"),
+    name="sublaminar layer S3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008924"),
+)
+UBERONParcellation.sublaminar_layer_s4 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/sublaminarLayerS4",
+    definition="Is a sublaminar layers S4 or S5, sublaminar layers S3 or S4, sublaminar layers S2 or S3 or S4, sublaminar layers S1 or S3 or S4, sublaminar layers S3 or S4 or S5 and sublaminar layers S1 or S2 or S3 or S4. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008925)]",
+    description="A retinal neural layer that is immediately adjacent to the S3 and S5 layer and comprises 20 percent of the inner plexiform layer of retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008925)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008925#sublaminar-layer-s4"),
+    name="sublaminar layer S4",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008925"),
+)
+UBERONParcellation.sublaminar_layer_s5 = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/sublaminarLayerS5",
+    definition="Is a sublaminar layers S4 or S5, sublaminar layers S1 or S2 or S5 and sublaminar layers S3 or S4 or S5. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008926)]",
+    description="A retinal neural layer that is immediately adjacent to the retinal ganglion cell layer and comprises 20 percent of the ganglion plexiform layer of retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008926)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008926#sublaminar-layer-s5"),
+    name="sublaminar layer S5",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008926"),
+)
 UBERONParcellation.sublentiform_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/sublentiformNucleus",
     definition="'Sublentiform nucleus' is a nucleus of midbrain tectum and pretectal nucleus.",
@@ -13813,6 +14551,17 @@ UBERONParcellation.superficial_feature_part_of_the_cerebellum = UBERONParcellati
     name="superficial feature part of the cerebellum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0024046"),
 )
+UBERONParcellation.superficial_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/superficialLayerOfSuperiorColliculus",
+    definition="Is a layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006791)]",
+    description="The outermost layer of the superior colliculus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006791)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006791#superficial-layer-of-superior-colliculus"
+    ),
+    name="superficial layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006791"),
+    synonyms=["superficial gray and white zone"],
+)
 UBERONParcellation.superficial_middle_cerebral_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/superficialMiddleCerebralVein",
     definition="Is a cerebral vein. Is part of the cavernous sinus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035231) ('is_a' and 'relationship')]",
@@ -13821,6 +14570,24 @@ UBERONParcellation.superficial_middle_cerebral_vein = UBERONParcellation(
     name="superficial middle cerebral vein",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035231"),
     synonyms=["Sylvian vein", "vein of Labbe"],
+)
+UBERONParcellation.superficial_white_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/superficialWhiteLayerOfSuperiorColliculus",
+    definition="Is a white matter of superior colliculus and superficial layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006779)]",
+    description="Superficial white matter layer of superior collilculus that consists mainly of axions from the optic nerve. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006779)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006779#superficial-white-layer-of-superior-colliculus"
+    ),
+    name="superficial white layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006779"),
+    synonyms=[
+        "lamina colliculi superioris iii",
+        "lamina III of superior colliculus",
+        "layer III of superior colliculus",
+        "optic layer",
+        "optic layer of superior colliculus",
+        "stratum opticum colliculi superioris",
+    ],
 )
 UBERONParcellation.superior_cerebellar_peduncle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/superiorCerebellarPeduncle",
@@ -13891,6 +14658,28 @@ UBERONParcellation.superior_colliculus = UBERONParcellation(
         "tectal lobe",
         "tectum",
         "tectum opticum",
+    ],
+)
+UBERONParcellation.superior_colliculus_superficial_gray_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/superiorColliculusSuperficialGrayLayer",
+    definition="Is a gray matter layer of superior colliculus and superficial layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006120)]",
+    description="Layer of the superior colliculus, lying just deep to the outermost stratum zonale (Carpenter, A Core Text of Neuroanatomy, 3rd ed., 1985, pg 175) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006120)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006120#superior-colliculus-superficial-gray-layer"
+    ),
+    name="superior colliculus superficial gray layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006120"),
+    synonyms=[
+        "lamina colliculi superioris ii",
+        "lamina II of superior colliculus",
+        "layer II of superior colliculus",
+        "outer gray layer of superior colliculus",
+        "stratum cinereum",
+        "stratum griseum superficiale",
+        "stratum griseum superficiale colliculi superioris",
+        "stratum griseum superficiale of superior colliculus",
+        "superficial gray layer of superior colliculus",
+        "superficial grey layer of superior colliculus",
     ],
 )
 UBERONParcellation.superior_frontal_gyrus = UBERONParcellation(
@@ -15761,4 +16550,20 @@ UBERONParcellation.zona_incerta = UBERONParcellation(
     name="zona incerta",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001907"),
     synonyms=["ZI", "nucleus of the zona incerta", "zona incerta proper"],
+)
+UBERONParcellation.zonal_layer_of_superior_colliculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/zonalLayerOfSuperiorColliculus",
+    definition="Is a gray matter layer of superior colliculus and superficial layer of superior colliculus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006780)]",
+    description="A thin layer consisting of small myelinated axons together with marginal and horizontal cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006780)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006780#zonal-layer-of-superior-colliculus"),
+    name="zonal layer of superior colliculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006780"),
+    synonyms=[
+        "lamina colliculi superioris I",
+        "lamina I of superior colliculus",
+        "layer I of superior colliculus",
+        "stratum zonale colliculi superioris",
+        "stratum zonale of midbrain",
+        "stratum zonale of superior colliculus",
+    ],
 )

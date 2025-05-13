@@ -1363,6 +1363,14 @@ UBERONParcellation.basal_part_of_pons = UBERONParcellation(
         "ventral portion of pons",
     ],
 )
+UBERONParcellation.basal_plate_metencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/basalPlateMetencephalon",
+    definition="Is a neural tube basal plate. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005239)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005239#basal-plate-metencephalon"),
+    name="basal plate metencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005239"),
+    synonyms=["metencephalon basal plate"],
+)
 UBERONParcellation.basal_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/basalVein",
     definition="Is a deep cerebral vein. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035530)]",
@@ -3359,6 +3367,15 @@ UBERONParcellation.commissural_nucleus_of_vagus_nerve = UBERONParcellation(
         "nucleus of inferior commisure",
     ],
 )
+UBERONParcellation.commissure_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/commissureOfDiencephalon",
+    definition="Is a brain commissure and tract of diencephalon. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011590)]",
+    description="A commissure that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011590)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0011590#commissure-of-diencephalon"),
+    name="commissure of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011590"),
+    synonyms=["diencephalon commissure"],
+)
 UBERONParcellation.commissure_of_inferior_colliculus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/commissureOfInferiorColliculus",
     definition="Is a brain commissure. Is part of the inferior colliculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003028) ('is_a' and 'relationship')]",
@@ -3398,6 +3415,14 @@ UBERONParcellation.commissure_of_superior_colliculus = UBERONParcellation(
         "optic tectum commissure",
         "superior colliculus commissure",
     ],
+)
+UBERONParcellation.commissure_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/commissureOfTelencephalon",
+    definition="Is a brain commissure. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0019294) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0019294#commissure-of-telencephalon"),
+    name="commissure of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019294"),
+    synonyms=["telencephalic commissures"],
 )
 UBERONParcellation.composite_part_spanning_multiple_base_regional_parts_of_brain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/compositePartSpanningMultipleBaseRegionalPartsOfBrain",
@@ -3803,6 +3828,15 @@ UBERONParcellation.cytoarchitectural_part_of_dentate_gyrus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023564"),
     synonyms=["cytoarchitectural part of dentate gyrus"],
 )
+UBERONParcellation.decussation_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/decussationOfDiencephalon",
+    definition="Is a neural decussation. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007425) ('is_a' and 'relationship')]",
+    description="A neural decussation that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007425)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007425#decussation-of-diencephalon"),
+    name="decussation of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007425"),
+    synonyms=["diencephalon decussation"],
+)
 UBERONParcellation.decussation_of_superior_cerebellar_peduncle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/decussationOfSuperiorCerebellarPeduncle",
     definition="Is a neural decussation. Is part of the midbrain tegmentum and the superior cerebellar peduncle. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002588) ('is_a' and 'relationship')]",
@@ -3964,21 +3998,22 @@ UBERONParcellation.diagonal_band_of_broca = UBERONParcellation(
 )
 UBERONParcellation.diencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalon",
-    definition="'Diencephalon' is a regional part of brain. It is part of the forebrain.",
-    description="Part of the brain consisting of the paired caudal parts of the prosencephalon from which the Thalamus; Hypothalamus; Epithalamus; and Subthalamus are derived.(MeSH)",
+    definition="Is a regional part of brain. Is part of the forebrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001894) ('is_a' and 'relationship')]",
+    description="The division of the forebrain that develops from the foremost primary cerebral vesicle. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001894)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103217"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001894#diencephalon-1"),
     name="diencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001894"),
-    synonyms=[
-        "between brain",
-        "betweenbrain",
-        "DiE",
-        "diencephalon",
-        "Interbrain",
-        "mature diencephalon",
-        "thalamencephalon",
-    ],
+    synonyms=["between brain", "interbrain", "mature diencephalon", "thalamencephalon"],
+)
+UBERONParcellation.diencephalon_subarachnoid_space = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonSubarachnoidSpace",
+    definition="Is a subarachnoid space. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005218) ('is_a' and 'relationship')]",
+    description="A subarachnoid space that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005218)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005218#diencephalon-subarachnoid-space"),
+    name="diencephalon subarachnoid space",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005218"),
+    synonyms=["subarachnoid space diencephalon"],
 )
 UBERONParcellation.diffuse_reticular_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/diffuseReticularNucleus",
@@ -4725,13 +4760,12 @@ UBERONParcellation.epithalamus = UBERONParcellation(
 )
 UBERONParcellation.external_capsule_of_telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/externalCapsuleOfTelencephalon",
-    definition="",
-    description="The 'external capsule of telencephalon' is a series of white matter fibre tracts that run between the most lateral segment of the lentiform nucleus and the claustrum.",
+    definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004545)]",
+    description="Any of the series of white matter fiber tracts in the brain that run between the most lateral segment of the lentiform nucleus and the claustrum; the white matter of the external capsule contains fibers known as corticocortical association fibers which are responsible for connecting the cerebral cortex to another cortical area; the capsule appears as a thin white sheet of white matter and provides a route for cholinergic fibers from the basal forebrain to the cerebral cortex; it eventually joins the internal capsule around the lentiform nucleus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004545)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0724043"),
-    knowledge_space_link=IRI("https://knowledge-space.org/wiki/NLXANAT:1010013#external-capsule-of-telencephalon"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004545#external-capsule-of-telencephalon"),
     name="external capsule of telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004545"),
-    synonyms=["brain external capsule", "capsula externa", "corpus callosum external capsule", "external capsule"],
 )
 UBERONParcellation.external_nucleus_of_inferior_colliculus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/externalNucleusOfInferiorColliculus",
@@ -4886,6 +4920,68 @@ UBERONParcellation.flocculus = UBERONParcellation(
         "lobule X",
         "lobule X of hemisphere of cerebellum",
         "neuraxis flocculus",
+    ],
+)
+UBERONParcellation.floor_plate_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/floorPlateOfDiencephalon",
+    definition="Is a regional part of brain. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003309) ('is_a' and 'relationship')]",
+    description="A floor plate that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003309)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003309#floor-plate-of-diencephalon"),
+    name="floor plate of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003309"),
+    synonyms=[
+        "between brain floor plate",
+        "between brain floorplate",
+        "diencephalon floor plate",
+        "diencephalon floorplate",
+        "floor plate diencephalic region",
+        "floor plate diencephalon",
+        "floor plate of between brain",
+        "floor plate of interbrain",
+        "floor plate of mature diencephalon",
+        "floorplate diencephalon",
+        "floorplate of between brain",
+        "floorplate of diencephalon",
+        "floorplate of interbrain",
+        "floorplate of mature diencephalon",
+        "interbrain floor plate",
+        "interbrain floorplate",
+        "mature diencephalon floor plate",
+        "mature diencephalon floorplate",
+    ],
+)
+UBERONParcellation.floor_plate_of_metencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/floorPlateOfMetencephalon",
+    definition="Is a regional part of brain. Is part of the metencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003310) ('is_a' and 'relationship')]",
+    description="A floor plate that is part of a metencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003310)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003310#floor-plate-of-metencephalon"),
+    name="floor plate of metencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003310"),
+    synonyms=[
+        "epencephalon-2 floor plate",
+        "epencephalon-2 floorplate",
+        "floor plate metencephalon",
+        "floor plate of epencephalon-2",
+        "floorplate of epencephalon-2",
+        "floorplate of metencephalon",
+        "metencephalon floor plate",
+        "metencephalon floorplate",
+    ],
+)
+UBERONParcellation.floor_plate_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/floorPlateOfTelencephalon",
+    definition="Is a regional part of brain. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003308) ('is_a' and 'relationship')]",
+    description="A floor plate that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003308)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003308#floor-plate-of-telencephalon"),
+    name="floor plate of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003308"),
+    synonyms=[
+        "floor plate telencephalic region",
+        "floor plate telencephalon",
+        "floorplate of telencephalon",
+        "floorplate telencephalon",
+        "telencephalon floor plate",
+        "telencephalon floorplate",
     ],
 )
 UBERONParcellation.forebrain = UBERONParcellation(
@@ -5271,6 +5367,13 @@ UBERONParcellation.gracile_fasciculus_of_medulla = UBERONParcellation(
         "Tract of Gall",
     ],
 )
+UBERONParcellation.gray_matter_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/grayMatterOfDiencephalon",
+    definition="Is a gray matter of forebrain. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0019269) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0019269#gray-matter-of-diencephalon"),
+    name="gray matter of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019269"),
+)
 UBERONParcellation.gray_matter_of_hindbrain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/grayMatterOfHindbrain",
     definition="'Gray matter of hindbrain' is a brain gray matter. It is part of the hindbrain.",
@@ -5278,6 +5381,17 @@ UBERONParcellation.gray_matter_of_hindbrain = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0019263#gray-matter-of-hindbrain"),
     name="gray matter of hindbrain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019263"),
+)
+UBERONParcellation.gray_matter_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/grayMatterOfTelencephalon",
+    definition="Is a gray matter of forebrain. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011300) ('is_a' and 'relationship')]",
+    description="A portion of gray matter that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011300)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0011300#predominantly-gray-regional-part-of-telencephalon"
+    ),
+    name="gray matter of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011300"),
+    synonyms=["predominantly gray regional part of telencephalon"],
 )
 UBERONParcellation.great_cerebral_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/greatCerebralVein",
@@ -6158,13 +6272,13 @@ UBERONParcellation.internal_arcuate_fiber_bundle = UBERONParcellation(
 )
 UBERONParcellation.internal_capsule_of_telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/internalCapsuleOfTelencephalon",
-    definition="'Internal capsule of telencephalon' is a cerebral hemisphere white matter.",
-    description="White matter regional part of brain which is flanked by nuclear masses, consisting of both afferent and efferent fibers projecting between the cerebral cortex and the brainstem and spinal cord. It consists of three distinct parts: an anterior limb, posterior limb, and genu. (Adapted from MSH by Maryann Martone).",
+    definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001887)]",
+    description="White matter regional part of brain which is flanked by nuclear masses, consisting of both afferent and efferent fibers projecting between the cerebral cortex and the brainstem and spinal cord. It consists of three distinct parts: an anterior limb, posterior limb, and genu. (Adapted from MSH by Maryann Martone). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001887)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0105583"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001887#internal-capsule"),
     name="internal capsule of telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001887"),
-    synonyms=["brain internal capsule", "capsula interna", "ic", "internal capsule", "internal capsule radiations"],
+    synonyms=["brain internal capsule", "internal capsule radiations"],
 )
 UBERONParcellation.internal_cerebral_vein = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/internalCerebralVein",
@@ -6483,6 +6597,13 @@ UBERONParcellation.lateral_eminence_of_hypophysis = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0027109#lateral-eminence-of-hypophysis-1"),
     name="lateral eminence of hypophysis",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0027109"),
+)
+UBERONParcellation.lateral_forebrain_bundle_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lateralForebrainBundleTelencephalon",
+    definition="Is a telencephalic tracts. Is part of the lateral forebrain bundle. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000779) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000779#lateral-forebrain-bundle-telencephalon"),
+    name="lateral forebrain bundle telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000779"),
 )
 UBERONParcellation.lateral_geniculate_body = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/lateralGeniculateBody",
@@ -7153,6 +7274,16 @@ UBERONParcellation.lentiform_nucleus = UBERONParcellation(
     name="lentiform nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002263"),
 )
+UBERONParcellation.limb_of_internal_capsule_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/limbOfInternalCapsuleOfTelencephalon",
+    definition="Is a cerebral hemisphere white matter. Is part of the internal capsule of telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014525) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0014525#limb-of-internal-capsule-of-telencephalon"
+    ),
+    name="limb of internal capsule of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014525"),
+    synonyms=["internal capsule subdivision", "limb of internal capsule", "subdivision of internal capsule"],
+)
 UBERONParcellation.limbic_lobe = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/limbicLobe",
     definition="Part of cerebral hemisphere located on the medial surface, forming a ring around the brain stem.",
@@ -7684,6 +7815,13 @@ UBERONParcellation.medial_forebrain_bundle = UBERONParcellation(
         "mfb",
         "telencephalic medial fasciculus",
     ],
+)
+UBERONParcellation.medial_forebrain_bundle_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/medialForebrainBundleTelencephalon",
+    definition="Is a diencephalic white matter and telencephalic tracts. Is part of the medial forebrain bundle. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000910) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000910#medial-forebrain-bundle-telencephalon"),
+    name="medial forebrain bundle telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000910"),
 )
 UBERONParcellation.medial_geniculate_body = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/medialGeniculateBody",
@@ -8374,6 +8512,31 @@ UBERONParcellation.medullary_reticular_formation = UBERONParcellation(
         "rhombencephalic reticular formation",
     ],
 )
+UBERONParcellation.meninx_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/meninxOfDiencephalon",
+    definition="Is a forebrain meninges. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003290) ('is_a' and 'relationship')]",
+    description="A meninx that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003290)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003290#meninx-of-diencephalon"),
+    name="meninx of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003290"),
+    synonyms=[
+        "between brain meninges",
+        "between brain meninx",
+        "diencephalon meninges",
+        "diencephalon meninx",
+        "interbrain meninges",
+        "interbrain meninx",
+        "mature diencephalon meninges",
+        "mature diencephalon meninx",
+        "meninges of between brain",
+        "meninges of diencephalon",
+        "meninges of interbrain",
+        "meninges of mature diencephalon",
+        "meninx of between brain",
+        "meninx of interbrain",
+        "meninx of mature diencephalon",
+    ],
+)
 UBERONParcellation.meninx_of_hindbrain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/meninxOfHindbrain",
     definition="'Meninx of hindbrain' is a brain meninx. It is part of the hindbrain.",
@@ -8381,6 +8544,15 @@ UBERONParcellation.meninx_of_hindbrain = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003291#meninx-of-hindbrain"),
     name="meninx of hindbrain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003291"),
+)
+UBERONParcellation.meninx_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/meninxOfTelencephalon",
+    definition="Is a forebrain meninges. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003289) ('is_a' and 'relationship')]",
+    description="A meninx that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003289)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003289#meninx-of-telencephalon"),
+    name="meninx of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003289"),
+    synonyms=["telencephalon meninx"],
 )
 UBERONParcellation.mesencephalic_nucleus_of_trigeminal_nerve = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/mesencephalicNucleusOfTrigeminalNerve",
@@ -8452,13 +8624,13 @@ UBERONParcellation.metathalamus = UBERONParcellation(
 )
 UBERONParcellation.metencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/metencephalon",
-    definition="'Metencephalon' is a segmental subdivision of hindbrain.",
-    description="Anterior part of the hindbrain ventral to the cerebellum.",
+    definition="Is a segmental subdivision of hindbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001895)]",
+    description="Rostral segment of the hindbrain that has as its parts the pons (where present) and the cerebellum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001895)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0106845"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001895#metencephalon-1"),
     name="metencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001895"),
-    synonyms=["Epencephalon-2", "epencephalon"],
+    synonyms=["epencephalon-2"],
 )
 UBERONParcellation.metencephalon_sulcus_limitans = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/metencephalonSulcusLimitans",
@@ -8701,6 +8873,22 @@ UBERONParcellation.mushroom_body = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001058#mushroom-body"),
     name="mushroom body",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001058"),
+)
+UBERONParcellation.myelencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/myelencephalon",
+    definition="Is a segmental subdivision of hindbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005290)]",
+    description="The posterior part of the developing vertebrate hindbrain or the corresponding part of the adult brain composed of the medulla oblongata and a portion of the fourth ventricle; as well as the glossopharyngeal nerve (CN IX), vagus nerve (CN X), accessory nerve (CN XI), hypoglossal nerve (CN XII), and a portion of the vestibulocochlear nerve (CN VIII). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005290)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005290#myelencephalon"),
+    name="myelencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005290"),
+)
+UBERONParcellation.myelencephalon_basal_plate = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/myelencephalonBasalPlate",
+    definition="Is a neural tube basal plate. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009579)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009579#myelencephalon-basal-plate"),
+    name="myelencephalon basal plate",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009579"),
+    synonyms=["basal plate myelencephalon", "future myelencephalon basal plate"],
 )
 UBERONParcellation.myelencephalon_sulcus_limitans = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/myelencephalonSulcusLimitans",
@@ -10489,6 +10677,14 @@ UBERONParcellation.parvocellular_part_of_red_nucleus = UBERONParcellation(
         "red nucleus parvicellular part",
         "RPC",
     ],
+)
+UBERONParcellation.peduncle_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/peduncleOfDiencephalon",
+    definition="Is a diencephalic white matter and peduncle of neuraxis. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022235)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022235#peduncle-of-diencephalon"),
+    name="peduncle of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022235"),
+    synonyms=["diencephalon peduncle"],
 )
 UBERONParcellation.pedunculopontine_tegmental_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pedunculopontineTegmentalNucleus",
@@ -12287,6 +12483,65 @@ UBERONParcellation.right_lateral_ventricle = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013162"),
     synonyms=["right telencephalic ventricle"],
 )
+UBERONParcellation.roof_plate_of_diencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/roofPlateOfDiencephalon",
+    definition="Is part of the diencephalon. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003301)]",
+    description="A roof plate that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003301)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003301#roof-plate-of-diencephalon"),
+    name="roof plate of diencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003301"),
+    synonyms=[
+        "between brain roof plate",
+        "between brain roofplate",
+        "diencephalon roof plate",
+        "diencephalon roofplate",
+        "interbrain roof plate",
+        "interbrain roofplate",
+        "mature diencephalon roof plate",
+        "mature diencephalon roofplate",
+        "roof plate diencephalic region",
+        "roof plate diencephalon",
+        "roof plate of between brain",
+        "roof plate of interbrain",
+        "roof plate of mature diencephalon",
+        "roofplate of between brain",
+        "roofplate of diencephalon",
+        "roofplate of interbrain",
+        "roofplate of mature diencephalon",
+    ],
+)
+UBERONParcellation.roof_plate_of_metencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/roofPlateOfMetencephalon",
+    definition="Is part of the metencephalon. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003302)]",
+    description="A roof plate that is part of a metencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003302)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003302#roof-plate-of-metencephalon"),
+    name="roof plate of metencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003302"),
+    synonyms=[
+        "epencephalon-2 roof plate",
+        "epencephalon-2 roofplate",
+        "metencephalon roof plate",
+        "metencephalon roofplate",
+        "roof plate metencephalon",
+        "roof plate of epencephalon-2",
+        "roofplate of epencephalon-2",
+        "roofplate of metencephalon",
+    ],
+)
+UBERONParcellation.roof_plate_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/roofPlateOfTelencephalon",
+    definition="Is part of the telencephalon. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003300)]",
+    description="A roof plate that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003300)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003300#roof-plate-of-telencephalon"),
+    name="roof plate of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003300"),
+    synonyms=[
+        "roof plate telencephalon",
+        "roofplate of telencephalon",
+        "telencephalon roof plate",
+        "telencephalon roofplate",
+    ],
+)
 UBERONParcellation.root_of_abducens_nerve = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/rootOfAbducensNerve",
     definition="'Root of abducens nerve' is a root of cranial nerve. It is part of the medulla oblongata.",
@@ -12513,6 +12768,14 @@ UBERONParcellation.secondary_olfactory_cortex = UBERONParcellation(
         "secondary olfactory cortical area (Carpenter)",
     ],
 )
+UBERONParcellation.secondary_prosencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/secondaryProsencephalon",
+    definition="Is a regional part of brain. Is part of the forebrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036218) ('is_a' and 'relationship')]",
+    description="The most anterior region of the forebrain including both the telencephalon and the hypothalamus in the prosomeric model. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036218)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036218#secondary-prosencephalon"),
+    name="secondary prosencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036218"),
+)
 UBERONParcellation.secondary_visual_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/secondaryVisualCortex",
     definition="'Secondary visual cortex' is part of Brodmann area 18 and a functional region of the brain. It is part of the visual cortex.",
@@ -12619,11 +12882,13 @@ UBERONParcellation.septohippocampal_nucleus = UBERONParcellation(
 )
 UBERONParcellation.septum_of_telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/septumOfTelencephalon",
-    definition="Gray matter structure located on the midline of the forebrain consisting of the septum pellucidum (in some species) and the septal nuclei (Heimer, 1996).",
-    description="'Septum of telencephalon' is a cerebral hemisphere gray matter.",
+    definition="Is a cerebral hemisphere gray matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000446)]",
+    description="Gray matter structure located on the midline of the forebrain consisting of the septum pellucidum (in some species) and the septal nuclei (Heimer, 1996). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000446)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0110516"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000446#septum"),
     name="septum of telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000446"),
+    synonyms=["area septalis", "septal area", "septum (NN)", "telencephalon septum"],
 )
 UBERONParcellation.septum_pellucidum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/septumPellucidum",
@@ -12840,6 +13105,15 @@ UBERONParcellation.stria_medullaris = UBERONParcellation(
         "stria medullaris thalami",
         "stria medullaris thalamica",
     ],
+)
+UBERONParcellation.stria_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/striaOfTelencephalon",
+    definition="Is a white matter of telencephalon and stria of neuraxis. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0016555)]",
+    description="A stria of neuraxis that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0016555)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0016555#stria-of-telencephalon"),
+    name="stria of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0016555"),
+    synonyms=["telencephalon stria"],
 )
 UBERONParcellation.stria_terminalis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/striaTerminalis",
@@ -13605,6 +13879,13 @@ UBERONParcellation.supraspinal_nucleus = UBERONParcellation(
         "nucleus supraspinalis",
     ],
 )
+UBERONParcellation.synencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/synencephalon",
+    definition="Is a regional part of brain. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000293) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000293#synencephalon"),
+    name="synencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000293"),
+)
 UBERONParcellation.taenia_tectum_of_brain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/taeniaTectumOfBrain",
     definition="'Taenia tectum of brain' is a white matter of limbic lobe and stria of telencephalon. It is part of the olfactory bulb and supracallosal gyrus.",
@@ -13729,13 +14010,13 @@ UBERONParcellation.telencephalic_ventricle = UBERONParcellation(
 )
 UBERONParcellation.telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/telencephalon",
-    definition="'Telencephalon' is a regional part of brain. It is part of the forebrain.",
-    description="The telencephalon is the name for a large region within the brain that is attributed many functions. Many people refer to it as the cerebrum; however, it is technically referred to as the telencephalon. As a more technical definition, the telencephalon refers to the cerebral hemispheres and other, smaller structures within the brain, although the telencephalon is one of the larger divisions (in terms of number). It is the anterior-most embryological division of the brain that develops from the prosencephalon. The telencephalon is composed of the following sub-regions; Limbic system; Cerebral cortex or cortices of the cerebral hemispheres, Basal ganglia, Olfactory bulb.  The telencephalon comprises what most people think of as the 'brain.' It lies on top of the brainstem and is the largest and most well-developed of the five major divisions of the brain. The telencephalon is the newest structure in the phylogenetic sense, with mammals having the largest and most well-developed among all species. It emerges from the prosencephalon, the first of three vesicles that form from the embryonic neural tube (Christine Fennema-Notestine).",
+    definition="Is a regional part of brain. Is part of the forebrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001893) ('is_a' and 'relationship')]",
+    description="Part of the forebrain consisting of paired olfactory bulbs and cerebral hemispheres. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001893)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111558"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001893#telencephalon-1"),
     name="telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001893"),
-    synonyms=["cerebrum", "endbrain", "supratentorial region"],
+    synonyms=["cerebrum", "endbrain"],
 )
 UBERONParcellation.temporal_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/temporalCortex",
@@ -14603,6 +14884,15 @@ UBERONParcellation.ventral_pallidum = UBERONParcellation(
         "ventral pallidum",
         "VP",
     ],
+)
+UBERONParcellation.ventral_part_of_telencephalon = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/ventralPartOfTelencephalon",
+    definition="Is a regional part of brain. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000204) ('is_a' and 'relationship')]",
+    description="Ventral part (base region) of the telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000204)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000204#ventral-part-of-telencephalon"),
+    name="ventral part of telencephalon",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000204"),
+    synonyms=["area ventralis telencephali", "subpallium", "ventral telencephalon"],
 )
 UBERONParcellation.ventral_posterior_nucleus_of_thalamus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/ventralPosteriorNucleusOfThalamus",
